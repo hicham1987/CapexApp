@@ -1,0 +1,8 @@
+.card-header{
+  position: relative;
+}
+.card-header .user-selector{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}

@@ -1,0 +1,34 @@
+<form #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
+    <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="employeeService.selectedEmployee.$key">
+  <div class="form-group">
+    <input class="form-control" name="numAo" #numAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.numAo" placeholder="numAo" required>
+  </div>
+  <div class="form-group">
+    <input class="form-control" name="sousFamille" #sousFamille="ngModel" [(ngModel)]="employeeService.selectedEmployee.sousFamille" placeholder="sousFamille">
+  </div>
+  <div class="form-group">
+    <mat-form-field >
+    <mat-select  name="situationAo" #situationAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.situationAo" placeholder="situationAo">
+      <mat-option  *ngFor="let food of foods" [value]="food.value">
+        {{ food.viewValue }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  </div>
+  <div class="form-group">
+    <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-dollar"></i>
+        </div>
+        <input class="form-control" name="montantDeLaCad" #montantDeLaCad="ngModel" [(ngModel)]="employeeService.selectedEmployee.montantDeLaCad" placeholder="montantDeLaCad">
+    </div>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-default" type="submit" [disabled]="!employeeForm.valid">
+      <i class="fa fa-floppy-o"></i>
+       Submit</button>
+    <button class="btn btn-default" type="button" (click)="resetForm(employeeForm)">
+      <i class="fa fa-repeat"></i>
+       Reset</button>
+  </div>
+</form>
