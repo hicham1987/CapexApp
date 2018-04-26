@@ -312,19 +312,23 @@
                     <div class="card-content table-responsive">
                         <table class="table table-hover">
                             <thead class="text-warning">
-                                <tr>
-                                    <th>ID_Projet</th>
-                                    <th>Designation</th>
-                                    <th>Cloturer(o/n)</th>
-                                    <th>Fornisseur</th>
-                                </tr>
+                                    <tr>
+                                            <th>numDa</th>
+                                            <th>numRfi</th>
+                                            <th>situationRfi</th>
+                                            <th>numAo</th>
+                                            <th>situationAo</th>
+                                            <th>montantDeLaCad</th>
+                                          </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1##1</td>
-                                    <td>...</td>
-                                    <td>...</td>
-                                    <td>...</td>
+                                <tr *ngFor="let employee of employeeList">
+                                    <td>{{employee.numDa}}</td>
+                                    <td>{{employee.numRfi}}</td>
+                                    <td>{{employee.situationRfi}}</td>
+                                    <td>{{employee.numAo}}</td>
+                                    <td>{{employee.situationAo}}</td>
+                                    <td>{{employee.montantDeLaCad}}</td>
                                 </tr>
                             </tbody>
                         </table>
