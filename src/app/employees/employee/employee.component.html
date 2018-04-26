@@ -1,20 +1,44 @@
 <form #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
     <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="employeeService.selectedEmployee.$key">
+    <div class="form-group">
+        <input class="form-control "  name="numDa" #numDa="ngModel" [(ngModel)]="employeeService.selectedEmployee.numDa" placeholder="numDa" required>
+    </div>
   <div class="form-group">
-    <input class="form-control" name="numAo" #numAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.numAo" placeholder="numAo" required>
+    <input class="form-control" name="designation" #designation="ngModel" [(ngModel)]="employeeService.selectedEmployee.designation" placeholder="designation">
   </div>
   <div class="form-group">
-    <input class="form-control" name="sousFamille" #sousFamille="ngModel" [(ngModel)]="employeeService.selectedEmployee.sousFamille" placeholder="sousFamille">
-  </div>
+      <input class="form-control" name="numDossier" #numDossier="ngModel" [(ngModel)]="employeeService.selectedEmployee.numDossier" placeholder="numDossier" required>
+    </div>
+    <div class="form-group">
+      <input class="form-control" name="chefP" #chefP="ngModel" [(ngModel)]="employeeService.selectedEmployee.chefP" placeholder="chefP">
+    </div>
+    <div class="form-group">
+        <input class="form-control" name="estimation" #estimation="ngModel" [(ngModel)]="employeeService.selectedEmployee.estimation" placeholder="estimation" required>
+      </div>
+      <div class="form-group">
+        <input class="form-control" name="numRfi" #numRfi="ngModel" [(ngModel)]="employeeService.selectedEmployee.numRfi" placeholder="numRfi">
+      </div>
   <div class="form-group">
     <mat-form-field >
-    <mat-select  name="situationAo" #situationAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.situationAo" placeholder="situationAo">
+    <mat-select  name="situationRfi" #situationRfi="ngModel" [(ngModel)]="employeeService.selectedEmployee.situationRfi" placeholder="situationRfi">
       <mat-option  *ngFor="let food of foods" [value]="food.value">
         {{ food.viewValue }}
       </mat-option>
     </mat-select>
   </mat-form-field>
   </div>
+  <div class="form-group">
+      <input class="form-control" name="numAo" #numAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.numAo" placeholder="numAo">
+    </div>
+    <div class="form-group">
+        <mat-form-field >
+        <mat-select  name="situationAo" #situationAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.situationAo" placeholder="situationAo">
+          <mat-option  *ngFor="let food of foods" [value]="food.value">
+            {{ food.viewValue }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      </div>
   <div class="form-group">
     <div class="input-group">
         <div class="input-group-addon">

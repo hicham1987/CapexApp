@@ -24,6 +24,8 @@
     "@angular/platform-browser-dynamic": "^5.2.9",
     "@angular/platform-server": "^5.2.9",
     "@angular/router": "^5.2.9",
+    "angular-placeholder": "^1.1.0",
+    "angular-popper": "^1.0.0",
     "angularfire2": "5.0.0-rc.3",
     "arrive": "2.4.1",
     "async-pipe": "^1.0.0",

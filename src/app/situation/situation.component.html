@@ -20,18 +20,30 @@
             <table class="table table-hover">
               <thead>
                 <tr>
+                  <th>numDa</th>
+                  <th>designation</th>
+                  <th>numDossier</th>
+                  <th>chefP</th>
+                  <th>estimation</th>
+                  <th>numRfi</th>
+                  <th>situationRfi</th>
                   <th>numAo</th>
-                  <th>sousFamille</th>
                   <th>situationAo</th>
                   <th>montantDeLaCad</th>
                 </tr>
               </thead>
               <tbody>
                 <tr *ngFor="let employee of employeeList">
-                  <td>{{employee.numAo}}</td>
-                  <td>{{employee.sousFamille}}</td>
-                  <td>{{employee.situationAo}}</td>
-                  <td>{{employee.montantDeLaCad}}</td>
+                    <td>{{employee.numDa}}</td>
+                    <td>{{employee.designation}}</td>
+                    <td>{{employee.numDossier}}</td>
+                    <td>{{employee.chefP}}</td>
+                    <td>{{employee.estimation}}</td>
+                    <td>{{employee.numRfi}}</td>
+                    <td>{{employee.situationRfi}}</td>
+                    <td>{{employee.numAo}}</td>
+                    <td>{{employee.situationAo}}</td>
+                    <td>{{employee.montantDeLaCad}}</td>
                 </tr>
               </tbody>
             </table>

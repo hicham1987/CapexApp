@@ -43,11 +43,17 @@ export class AoStatusComponent implements OnInit {
     }
 
     this.dataService.selectedEmployee = {
-      $key : null,
-      numAo : '',
-      sousFamille : '',
-      situationAo : '',
-      montantDeLaCad : 0,
+      $key: null,
+      numDa : null,
+      designation : '',
+      numDossier : null,
+      chefP: '',
+      estimation:null,
+      numRfi:null,
+      situationRfi:'',
+      numAo :null,
+      situationAo :'',
+      montantDeLaCad :0,
     };
   }
 }

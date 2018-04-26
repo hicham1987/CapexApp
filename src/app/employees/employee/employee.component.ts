@@ -44,10 +44,16 @@ export class EmployeeComponent implements OnInit {
       employeeForm.reset();
     this.employeeService.selectedEmployee = {
       $key: null,
-      numAo: '',
-      sousFamille: '',
-      situationAo: '',
-      montantDeLaCad: 0,
+      numDa : null,
+      designation : '',
+      numDossier : null,
+      chefP: '',
+      estimation:null,
+      numRfi:null,
+      situationRfi:'',
+      numAo :null,
+      situationAo :'',
+      montantDeLaCad :0,
     }
   }
 

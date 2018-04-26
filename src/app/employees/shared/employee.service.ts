@@ -15,8 +15,14 @@ export class EmployeeService {
 
   insertEmployee(employee: Employee, creatorId = null) {
     this.employeeList.push({
+      numDa: employee.numDa,
+      designation: employee.designation,
+      numDossier: employee.numDossier,
+      chefP: employee.chefP,
+      estimation: employee.estimation,
+      numRfi: employee.numRfi,
+      situationRfi: employee.situationRfi,
       numAo: employee.numAo,
-      sousFamille: employee.sousFamille,
       situationAo: employee.situationAo,
       montantDeLaCad: employee.montantDeLaCad,
       creatorUid: creatorId
@@ -26,10 +32,16 @@ export class EmployeeService {
   updateEmployee(employee: Employee){
     this.employeeList.update(employee.$key,
       {
-        numAo: employee.numAo,
-        sousFamille: employee.sousFamille,
-        situationAo: employee.situationAo,
-        montantDeLaCad: employee.montantDeLaCad
+        numDa: employee.numDa,
+      designation: employee.designation,
+      numDossier: employee.numDossier,
+      chefP: employee.chefP,
+      estimation: employee.estimation,
+      numRfi: employee.numRfi,
+      situationRfi: employee.situationRfi,
+      numAo: employee.numAo,
+      situationAo: employee.situationAo,
+      montantDeLaCad: employee.montantDeLaCad,
       });
   }
 

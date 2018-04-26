@@ -1,4 +1,3 @@
-<h6 class="text-center">Ao Register</h6><br/>
 <div class="user-selector" *ngIf="isAdmin()">
   <mat-form-field>
     <mat-select placeholder="Select User" (selectionChange)="onUserSelected($event)">
@@ -10,9 +9,9 @@
 </div>
 <table class="table table-sm table-hover">
   <tr *ngFor="let employee of employeeList">
-      <td>{{employee.numAo}}</td>
-      <td>{{employee.sousFamille}}</td>
-      <td>{{employee.situationAo}}</td>
+      <td>{{employee.numDa}}</td>
+      <td>{{employee.numDossier}}</td>
+      <td>{{employee.chefP}}</td>
       <td>{{employee.montantDeLaCad}}</td>
       <td>
         <a class="btn" (click)="onEdit(employee)">
