@@ -19,10 +19,10 @@ import { AuthGuard } from './auth-guard.service';
 const routes: Routes =[
     { path: 'tableau-de-bord',      component: DashboardComponent, canActivate: [AuthGuard] },
     { path: 'membre-du-projet',   component: UserProfileComponent },
-    { path: 'ao-status',        component: AoStatusComponent },
+    { path: 'formulaire',        component: AoStatusComponent },
     { path: 'situation',     component: SituationComponent },
     { path: 'documentation',        component: UpgradeComponent },
-    { path: 'meta',        component: MetaSenderComponent },
+    //{ path: 'meta',        component: MetaSenderComponent },
     { path:'signup', component:SignUpComponent, data: {sidebar: false}},
     { path:'login', component:LoginComponent, data: {sidebar: false}},
     { path: '', redirectTo: 'login', pathMatch: 'full' }

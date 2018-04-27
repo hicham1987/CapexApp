@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,ViewContainerRef } from '@angular/core';
 //Dashboard
 import { OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { Location, LocationStrategy, PathLocationStrategy, PopStateEvent } from '@angular/common';

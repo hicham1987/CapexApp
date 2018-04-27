@@ -7,6 +7,7 @@ import { EmployeeService } from '../shared/employee.service';
 import { AuthService } from './../../auth.service';
 import { ToastrService } from 'ngx-toastr';
 import {CommonModule} from '@angular/common';
+
 @Component({
   selector: 'app-employee',
   templateUrl: './employee.component.html',
@@ -17,7 +18,7 @@ export class EmployeeComponent implements OnInit {
   constructor(
     private employeeService: EmployeeService,
     private tostr: ToastrService,
-    private auth: AuthService
+    private auth: AuthService,
   ) { }
 
   ngOnInit() {
