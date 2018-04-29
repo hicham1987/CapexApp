@@ -4,16 +4,17 @@
         <div class="card-header" data-background-color="red">
             <h4 class="title">Liste</h4>
             <p class="category"></p>
+            <div class="user-selector" *ngIf="isAdmin()">
+                <mat-form-field class="field">
+                  <mat-select placeholder="" (selectionChange)="onUserSelected($event)">
+                    <mat-option *ngFor="let user of users" [value]="user">
+                      {{ user.email }}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
           </div>
-        <div class="user-selector" *ngIf="isAdmin()">
-            <mat-form-field>
-              <mat-select placeholder="Select User" (selectionChange)="onUserSelected($event)">
-                <mat-option *ngFor="let user of users" [value]="user">
-                  {{ user.email }}
-                </mat-option>
-              </mat-select>
-            </mat-form-field>
-          </div>
+        
           <table class="table table-sm table-hover">
             <tr *ngFor="let employee of employeeList">
                 <td>{{employee.numDa}}</td>

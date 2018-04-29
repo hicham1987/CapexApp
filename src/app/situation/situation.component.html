@@ -9,7 +9,7 @@
                </p>
             <div class="user-selector" *ngIf="isAdmin()">
               <mat-form-field>
-                <mat-select placeholder="Select User" (selectionChange)="onUserSelected($event)">
+                <mat-select placeholder="choisissez un utilisateur" (selectionChange)="onUserSelected($event)">
                   <mat-option *ngFor="let user of users" [value]="user">
                     {{ user.email }}
                   </mat-option>
