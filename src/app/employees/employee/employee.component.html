@@ -9,44 +9,44 @@
           </div>
           <div class="card-content">
             <form #employeeForm="ngForm" (ngSubmit)="onSubmit(employeeForm)">
-                <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="employeeService.selectedEmployee.$key">
+              <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="employeeService.selectedEmployee.$key">
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group form-black label-floating is-empty">
-                    
-                    <label class="control-label"></label>
-                    <input class="form-control " name="numDa" #numDa="ngModel" [(ngModel)]="employeeService.selectedEmployee.numDa" placeholder="numDa"
+
+                    <label class="control-label">numDa</label>
+                    <input class="form-control " name="numDa" #numDa="ngModel" [(ngModel)]="employeeService.selectedEmployee.numDa" placeholder=""
                       required>
                   </div>
                 </div>
                 <div class="col-md-5">
                   <div class="form-group form-black label-floating is-empty">
-                    <label class="control-label"></label>
+                    <label class="control-label">numDossier</label>
                     <input class="form-control" name="numDossier" #numDossier="ngModel" [(ngModel)]="employeeService.selectedEmployee.numDossier"
-                      placeholder="numDossier" required>
+                      placeholder="" required>
                   </div>
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="form-group form-black label-floating is-empty">
-                  <label class="control-label"></label>
+                  <label class="control-label">designation</label>
                   <input class="form-control" name="designation" #designation="ngModel" [(ngModel)]="employeeService.selectedEmployee.designation"
-                    placeholder="designation">
+                    placeholder="">
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group form-black label-floating is-empty">
-                    <label class="control-label"></label>
-                    <input class="form-control" name="chefP" #chefP="ngModel" [(ngModel)]="employeeService.selectedEmployee.chefP" placeholder="chefP">
+                    <label class="control-label">chefP</label>
+                    <input class="form-control" name="chefP" #chefP="ngModel" [(ngModel)]="employeeService.selectedEmployee.chefP" placeholder="">
                   </div>
                 </div>
                 <div class="col-md-5">
                   <div class="form-group form-black label-floating is-empty">
-                    <label class="control-label"></label>
+                    <label class="control-label">estimation</label>
                     <input class="form-control" name="estimation" #estimation="ngModel" [(ngModel)]="employeeService.selectedEmployee.estimation"
-                      placeholder="estimation" required>
+                      placeholder="" required>
                   </div>
                 </div>
               </div>
@@ -54,8 +54,8 @@
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group form-black label-floating is-empty">
-                    <label class="control-label"></label>
-                    <input class="form-control" name="numRfi" #numRfi="ngModel" [(ngModel)]="employeeService.selectedEmployee.numRfi" placeholder="numRfi">
+                    <label class="control-label">numRfi</label>
+                    <input class="form-control" name="numRfi" #numRfi="ngModel" [(ngModel)]="employeeService.selectedEmployee.numRfi" placeholder="">
                   </div>
                 </div>
                 <div class="col-md-5">
@@ -63,8 +63,8 @@
                     <label class="control-label"></label>
                     <mat-form-field>
                       <mat-select name="situationRfi" #situationRfi="ngModel" [(ngModel)]="employeeService.selectedEmployee.situationRfi" placeholder="situationRfi">
-                        <mat-option *ngFor="let food of foods" [value]="food.value">
-                          {{ food.viewValue }}
+                        <mat-option *ngFor="let rfi of Rfis" [value]="rfi.value">
+                          {{ rfi.viewValue }}
                         </mat-option>
                       </mat-select>
                     </mat-form-field>
@@ -75,8 +75,8 @@
               <div class="row">
                 <div class="col-md-5">
                   <div class="form-group form-black label-floating is-empty">
-                    <label class="control-label"></label>
-                    <input class="form-control" name="numAo" #numAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.numAo" placeholder="numAo">
+                    <label class="control-label">numAo</label>
+                    <input class="form-control" name="numAo" #numAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.numAo" placeholder="">
                   </div>
                 </div>
                 <div class="col-md-5">
@@ -84,8 +84,8 @@
                     <label class="control-label"></label>
                     <mat-form-field>
                       <mat-select name="situationAo" #situationAo="ngModel" [(ngModel)]="employeeService.selectedEmployee.situationAo" placeholder="situationAo">
-                        <mat-option *ngFor="let food of foods" [value]="food.value">
-                          {{ food.viewValue }}
+                        <mat-option *ngFor="let ao of Aos" [value]="ao.value">
+                          {{ ao.viewValue }}
                         </mat-option>
                       </mat-select>
                     </mat-form-field>
@@ -97,8 +97,9 @@
                   <div class="input-group-addon">
                     <i class="fa fa-dollar"></i>
                   </div>
+                  <label class="control-label">montantDeLaCad</label>
                   <input class="form-control" name="montantDeLaCad" #montantDeLaCad="ngModel" [(ngModel)]="employeeService.selectedEmployee.montantDeLaCad"
-                    placeholder="montantDeLaCad">
+                    placeholder="">
                 </div>
               </div>
               <div class="form-group">
