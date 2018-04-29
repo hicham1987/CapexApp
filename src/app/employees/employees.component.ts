@@ -8,17 +8,18 @@ import { EmployeeListComponent } from '../employees/employee-list/employee-list.
 import { EmployeeService } from './shared/employee.service'
 import {MatSelectModule} from '@angular/material/select';
 import {CommonModule} from '@angular/common';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-employees',
   template: `<div class="text-center">
   <h2 class="jumbotron">Ao Register</h2>
 </div>
-<div class="row">
-  <div class="col-md-7">
+<div class="">
+  <div class="col-sm-7">
     <app-employee></app-employee>
   </div>
-  <div class="col-md-5">
+  <div class="col-md-3 " style=" display:relative; right:80%;">
     <app-employee-list></app-employee-list>
   </div>
 </div>`,
@@ -35,7 +36,8 @@ export class EmployeesComponent  {
     RouterModule,
     FormsModule,
     MatSelectModule,
-    CommonModule
+    CommonModule,
+    MatCardModule
   ],
   declarations: [
     EmployeeComponent,
@@ -45,7 +47,8 @@ export class EmployeesComponent  {
   exports: [
     EmployeeComponent,
     EmployeeListComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    MatCardModule
   ],
   providers :[EmployeeService]
 })

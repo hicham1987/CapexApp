@@ -1,12 +1,8 @@
-::placeholder {
-    color: red;
-    opacity: 1; /* Firefox */
-}
+.main-content{
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: red;
+    width: 150%;
 }
-
-::-ms-input-placeholder { /* Microsoft Edge */
-   color: red;
-}
+.main-content {
+    display: static;
+    left: 50px;
+  }

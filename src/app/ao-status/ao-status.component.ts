@@ -4,6 +4,7 @@ import { EmployeeService } from '../employees/shared/employee.service';
 import { ToastrService } from 'ngx-toastr';
 import { EmployeesComponent } from '../employees/employees.component'
 import { AuthService } from './../auth.service';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-ao-status',

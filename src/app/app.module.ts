@@ -121,6 +121,7 @@ import { SituationComponent } from './situation/situation.component';
     FormsModule,
     HttpModule,
     MetaModule,
+    MatCardModule,
     MatSelectModule,
     MatButtonModule,
     MatTooltipModule,

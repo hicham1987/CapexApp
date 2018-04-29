@@ -1,25 +1,31 @@
-<div class="user-selector" *ngIf="isAdmin()">
-  <mat-form-field>
-    <mat-select placeholder="Select User" (selectionChange)="onUserSelected($event)">
-      <mat-option *ngFor="let user of users" [value]="user">
-        {{ user.email }}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
+
+<div class="col-md-10 ">
+    <div class="card card-profile">
+        <div class="card-header" data-background-color="red">
+            <h4 class="title">Liste</h4>
+            <p class="category"></p>
+          </div>
+        <div class="user-selector" *ngIf="isAdmin()">
+            <mat-form-field>
+              <mat-select placeholder="Select User" (selectionChange)="onUserSelected($event)">
+                <mat-option *ngFor="let user of users" [value]="user">
+                  {{ user.email }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <table class="table table-sm table-hover">
+            <tr *ngFor="let employee of employeeList">
+                <td>{{employee.numDa}}</td>
+                <td>
+                  <a class="btn" (click)="onEdit(employee)">
+                    <i class="fa fa-pencil-square-o"></i>
+                  </a>
+                </td>
+            </tr>
+          </table>
+    </div>
 </div>
-<table class="table table-sm table-hover">
-  <tr *ngFor="let employee of employeeList">
-      <td>{{employee.numDa}}</td>
-      <td>{{employee.numDossier}}</td>
-      <td>{{employee.chefP}}</td>
-      <td>{{employee.montantDeLaCad}}</td>
-      <td>
-        <a class="btn" (click)="onEdit(employee)">
-          <i class="fa fa-pencil-square-o"></i>
-        </a>
-        <a class="btn" (click)="onDelete(employee.$key)">
-          <i class="fa fa-trash-o"></i>
-        </a>
-      </td>
-  </tr>
-</table>
+
+
+

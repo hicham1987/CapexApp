@@ -1,10 +1,9 @@
-/* 
+
  container {
     display: relative;
     flex-direction: column;
   }
   
-  container > * {
-    width: 200%;
+  .container  {
+    width: 25%;
   }
-  */

@@ -4,6 +4,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { EmployeeService } from '../employees/shared/employee.service';
 import { Employee} from '../employees/shared/employee.model';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { ToastrService } from 'ngx-toastr';
 
 import { AuthService } from './../auth.service';
 
@@ -20,7 +21,8 @@ export class SituationComponent implements OnInit {
   constructor(
     private employeeService: EmployeeService,
     private auth: AuthService,
-    private db: AngularFireDatabase
+    private db: AngularFireDatabase,
+    private tostr: ToastrService,
   ) {
 
   }
@@ -68,5 +70,14 @@ export class SituationComponent implements OnInit {
     }
     return ( 'isAdmin' in this.auth.loggedInUser && this.auth.loggedInUser['isAdmin']);
   }
+  onEdit(emp: Employee) {
+    this.employeeService.selectedEmployee = Object.assign({}, emp);
+  }
 
+  onDelete(key: string) {
+    if (confirm('Are you sure to delete this record ?') == true) {
+      this.employeeService.deleteEmployee(key);
+      this.tostr.warning("Deleted Successfully", "Employee register");
+    }
+  }
 }

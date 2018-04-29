@@ -7,6 +7,7 @@ import { EmployeeService } from '../shared/employee.service';
 import { AuthService } from './../../auth.service';
 import { ToastrService } from 'ngx-toastr';
 import {CommonModule} from '@angular/common';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-employee',
