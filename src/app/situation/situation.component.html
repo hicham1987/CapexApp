@@ -4,12 +4,12 @@
       <div class="col-md-12">
         <div class="card card-plain">
           <div class="card-header" data-background-color="orange">
-              <h4 class="title text-center">Situation</h4>
+              <h4 class="title text-center" >données saisi </h4>
             <p class="category  font-weight-bold ">
                </p>
             <div class="user-selector" *ngIf="isAdmin()">
               <mat-form-field>
-                <mat-select placeholder="choisissez un utilisateur" (selectionChange)="onUserSelected($event)">
+                <mat-select placeholder="choisissez un acheteur" (selectionChange)="onUserSelected($event)">
                   <mat-option *ngFor="let user of users" [value]="user">
                     {{ user.email }}
                   </mat-option>

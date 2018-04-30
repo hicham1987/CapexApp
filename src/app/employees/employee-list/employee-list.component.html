@@ -17,8 +17,10 @@
         
           <table class="table table-sm table-hover">
             <tr *ngFor="let employee of employeeList">
-                <td>{{employee.numDa}}</td>
+                
+                <td><label>NUM DA:</label> &ngsp;&ngsp; {{employee.numDa}}</td>
                 <td>
+                    
                   <a class="btn" (click)="onEdit(employee)">
                     <i class="fa fa-pencil-square-o"></i>
                   </a>

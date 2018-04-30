@@ -13,13 +13,13 @@ import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'app-employees',
   template: `<div class="text-center">
-  <h2 class="jumbotron">Ao Register</h2>
+  <h2 class="jumbotron">Espace de saisie de données</h2>
 </div>
 <div class="">
   <div class="col-sm-7">
     <app-employee></app-employee>
   </div>
-  <div class="col-md-3 " style=" display:relative; right:80%;">
+  <div class="col-md-3 " style=" display:relative; right:-10%;">
     <app-employee-list></app-employee-list>
   </div>
 </div>`,

@@ -5,6 +5,7 @@ import { MatSelectModule } from '@angular/material/select';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
 import { AuthService } from './../auth.service';
+import firebase from '../../environments/environment';
 
 @Component({
   selector: 'app-user-profile',
