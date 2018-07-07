@@ -6,6 +6,9 @@ import { EmployeeService } from '../employees/shared/employee.service';
 import { Employee} from '../employees/shared/employee.model';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { AuthService } from './../auth.service';
+import { jqxChartComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxchart';
+
+
 
 @Component({
   selector: 'app-dashboard',
@@ -14,17 +17,28 @@ import { AuthService } from './../auth.service';
 })
 export class DashboardComponent implements OnInit {
   employeeList: Employee[];
-  selecteduser;
+  selecteduser; 
   public users;
 
+ //Chart
+ view: any[] = [500, 300];
+ showLegend = true;
+
+ colorScheme = {
+   domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+ };
+ showLabels = true;
+ explodeSlices = false;
+ doughnut = false;
   constructor( private employeeService: EmployeeService,
     private auth: AuthService,
-    private db: AngularFireDatabase) { }
+    private db: AngularFireDatabase,
+  ) { }
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;
       seq = 0;
       delays = 80;
-      durations = 500;
+      durations = 500; 
 
       chart.on('draw', function(data) {
         if(data.type === 'line' || data.type === 'area') {
@@ -201,5 +215,86 @@ export class DashboardComponent implements OnInit {
 
   loadsumAo(){
 
+  }  
+  // Radar
+  public radarChartLabels:string[] = ['annulé', 'en-cours-de-preparation', 'publié', 'à ouvrir', 'attente evaluation RFI', 'attente CGAO', 'attente GEL','attente lancement AO','attente avis technique','étude commercial','attente CAD','attente AE','attente validation contrat-Attribué','Soldé'];
+  emp: Employee
+  public radarChartData:any = [
+    {data: [this.employeeService.selectedEmployee.numRfi,this.employeeService.selectedEmployee.situationRfi], label: 'RfI'},
+    {data: [this.employeeService.selectedEmployee.numAo, this.employeeService.selectedEmployee.situationAo], label: 'AO'}
+  ];
+  public radarChartType:string = 'radar';
+ 
+  // events
+  public chartClicked(e:any):void {
+    console.log(e);
   }
+ 
+  public chartHovered(e:any):void {
+    console.log(e);
+  }
+
+  dataRFICounter: any =
+  [
+      { Browser: 'annulé', Share: 45.6 },
+      { Browser: 'en-cours-de-preparation', Share: 24.6 },
+      { Browser: 'publié', Share: 20.4 },
+      { Browser: 'à ouvrir', Share: 5.1 },
+      { Browser: 'attente evaluation RFI', Share: 1.3 },
+      { Browser: 'attente CGAO', Share: 3.0 },
+      { Browser: 'attente GEL', Share: 1.3 },
+      { Browser: 'attente lancement AO', Share: 3.0 }
+  ];
+  dataAOCounter: any =
+  [
+      { Browser: 'annulé', Share: 34.1 },
+      { Browser: 'publié', Share: 20.3 },
+      { Browser: 'à ouvrir', Share: 18.3 },
+      { Browser: 'attente avis technique', Share: 17.8 },
+      { Browser: 'étude commercial', Share: 2.7 },
+      { Browser: 'attente CAD', Share: 6.8 },
+      { Browser: 'attente AE', Share: 2.7 },
+      { Browser: 'attente validation contrat-Attribué', Share: 6.8 },
+      { Browser: 'Soldé', Share: 6.8 }
+  ];
+  charts: any[] = [
+      { title: 'AO', label: 'Ao', dataSource: this.dataAOCounter },
+      { title: 'RFI', label: 'Rfi', dataSource: this.dataRFICounter }
+  ];
+
+  padding: any = { left: 5, top: 5, right: 5, bottom: 5 };
+
+  titlePadding: any = { left: 0, top: 0, right: 0, bottom: 10 };
+
+  seriesGroups: any[] =
+  [
+      {
+          type: 'pie',
+          showLegend: true,
+          enableSeriesToggle: true,
+          series:
+          [
+              {
+                  dataField: 'Share',
+                  displayText: 'Browser',
+                  showLabels: true,
+                  labelRadius: 160,
+                  labelLinesEnabled: true,
+                  labelLinesAngles: true,
+                  labelsAutoRotate: false,
+                  initialAngle: 0,
+                  radius: 125,
+                  minAngle: 0,
+                  maxAngle: 180,
+                  centerOffset: 0,
+                  offsetY: 170,
+                  formatFunction: (value: any, itemIdx: any, serieIndex: any, groupIndex: any) => {
+                      if (isNaN(value))
+                          return value;
+                      return value + '%';
+                  }
+              }
+          ]
+      }
+  ];
 }

@@ -1,12 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { EmployeeService } from '../employees/shared/employee.service';
 import { Employee} from '../employees/shared/employee.model';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { ToastrService } from 'ngx-toastr';
+import {MatSort,MatSortable, MatTableDataSource} from '@angular/material'
 
 import { AuthService } from './../auth.service';
+import {MatTableModule} from '@angular/material/table';
+
+
 
 @Component({
   selector: 'app-situation',
@@ -14,6 +18,27 @@ import { AuthService } from './../auth.service';
   styleUrls: ['./situation.component.css']
 })
 export class SituationComponent implements OnInit {
+  //sorting
+  @ViewChild(MatSort) Sort:MatSort;
+  dataSource;
+
+  key: string = 'numDa'; //set default
+
+  reverse: boolean = false;
+
+  sort(key){
+
+    this.key = key;
+
+    this.reverse = !this.reverse;
+
+  }
+   /**This lines for grid sorting and pagination */
+   private gridApi;
+   private gridColumnApi;
+   private columnDefs;
+   private sortingOrder;
+   /**This lines for grid sorting and pagination */
   employeeList: Employee[];
   selecteduser;
   public users;
@@ -23,14 +48,38 @@ export class SituationComponent implements OnInit {
     private auth: AuthService,
     private db: AngularFireDatabase,
     private tostr: ToastrService,
+    private firebase :AngularFireDatabase
+   
   ) {
+    this.columnDefs=[
+      {
+          headerName:"numDa",
+          field:"numDa",
+          width:150,
+          sortingOrder:["asc","desc"]
+      },
+      {
+          headerName:"designation",
+          field:"designation",
+          width:150
 
-  }
+      }
+  ];
+}
+onGridReady(params){
+  //this.loadEmployeeData(data.value['$key']);
+  this.gridApi=params.api;
+  this.gridColumnApi=params.columnApi;
+  let dataValue =[{"numDa":"cc", "designation":22}]
+  params.api.setRowData(dataValue);
+}
 
   ngOnInit() {
     this.loadUsers();
     this.loadEmployeeData();
+    this.dataSource.sort= this.sort;  
   }
+
 
   loadEmployeeData(uid = null) {
     const x = this.employeeService.getData();
@@ -80,4 +129,13 @@ export class SituationComponent implements OnInit {
       this.tostr.warning("Deleted Successfully", "Employee register");
     }
   }
+
+//  public filterBooks(): void {
+  //  this.employeeList = this.db.list('/employees', {
+    //    query: {
+      //      orderByChild: 'title',
+        //    equalTo: 'My book #1',
+        //}
+    //});
+//}
 }

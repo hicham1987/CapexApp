@@ -15,6 +15,7 @@ import { SignUpComponent } from './session/sign-up/sign-up.component'
 import { LoginComponent } from './session/login/login.component'
 import { AuthService } from './auth.service';
 import { AuthGuard } from './auth-guard.service';
+import {ChartTestComponent} from './chart-test/chart-test.component';
 
 const routes: Routes =[
     { path: 'tableau-de-bord',      component: DashboardComponent, canActivate: [AuthGuard] },
@@ -22,6 +23,7 @@ const routes: Routes =[
     { path: 'formulaire',        component: AoStatusComponent },
     { path: 'situation',     component: SituationComponent },
     { path: 'documentation',        component: UpgradeComponent },
+    { path: 'app-chart-test',        component: ChartTestComponent },
     //{ path: 'meta',        component: MetaSenderComponent },
     { path:'signup', component:SignUpComponent, data: {sidebar: false}},
     { path:'login', component:LoginComponent, data: {sidebar: false}},

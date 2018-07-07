@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import {CdkTableModule} from '@angular/cdk/table';
+
 
 import { AppComponent } from './app.component';
 import { MetaModule } from './meta/meta.module';
@@ -47,7 +49,9 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
+ 
 } from '@angular/material';
+import { ChartsModule } from 'ng2-charts';
 
 //Dashboard
 
@@ -66,6 +70,16 @@ import { EmployeesModule } from './employees/employees.component'
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SituationComponent } from './situation/situation.component';
+import {AgGridModule} from 'ag-grid-angular/main';
+import { ChartTestComponent } from './chart-test/chart-test.component';
+
+//import { ChartModule } from 'modules/chart.module'
+import { jqxChartComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxchart';
+
+import {HttpClientModule} from '@angular/common/http';
+import {ReactiveFormsModule} from '@angular/forms';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+
 
 @NgModule({
 
@@ -114,6 +128,8 @@ import { SituationComponent } from './situation/situation.component';
     UpgradeComponent,
     AoStatusComponent,
     SituationComponent,
+    ChartTestComponent,
+    jqxChartComponent
     
   ],
   imports: [
@@ -137,7 +153,12 @@ import { SituationComponent } from './situation/situation.component';
     ToastrModule.forRoot(),
     EmployeesModule,
     AngularFireAuthModule,
-    CommonModule
+    CommonModule,
+    ChartsModule,
+    AgGridModule.withComponents([]),
+    MatTableModule
+
+   
   ],
   providers: [AuthService, AuthGuard],
   bootstrap: [AppComponent],

@@ -18,6 +18,7 @@ declare const $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+   
 isLoggedIn$: Observable <Boolean>;
   private _router: Subscription;
   private lastPoppedUrl: string;
@@ -28,6 +29,7 @@ isLoggedIn$: Observable <Boolean>;
 
   constructor( public location: Location, private router: Router,private authService: AuthService, private route: ActivatedRoute) {
       this.sidebar = true;
+     
   }
 
   ngOnInit() {

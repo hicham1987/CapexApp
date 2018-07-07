@@ -7,6 +7,259 @@ module.exports = {"contractName":"MetaCoin","abi":[{"inputs":[],"payable":false,
 
 /***/ }),
 
+/***/ "./node_modules/moment/locale recursive ^\\.\\/.*$":
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./src/$$_lazy_route_resource lazy recursive":
 /***/ (function(module, exports) {
 
@@ -144,7 +397,7 @@ var AoStatusComponent = /** @class */ (function () {
         return ('isAdmin' in this.auth.loggedInUser && this.auth.loggedInUser['isAdmin']);
     };
     AoStatusComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-ao-status',
             template: __webpack_require__("./src/app/ao-status/ao-status.component.html"),
             styles: [__webpack_require__("./src/app/ao-status/ao-status.component.css")]
@@ -172,7 +425,7 @@ module.exports = ""
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color='red' data-image=\"\" [hidden]=\"!sidebar\">\n        <app-sidebar ></app-sidebar>\n        <div class=\"sidebar-background\" style=\"background-image: url(../assets/img/sidebar-4.jpg)\"></div>\n    </div>\n    <div class=\"main-panel\" [ngStyle]=\"{'width': !sidebar?'100%':''}\">\n        <app-navbar [hidden]=\"!sidebar\"></app-navbar>\n        <router-outlet></router-outlet>\n        <div [hidden]=\"!sidebar\">\n            <app-footer ></app-footer>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"wrapper\">\n    <div class=\"sidebar\" data-color='red' data-image=\"\" [hidden]=\"!sidebar\">\n        <app-sidebar ></app-sidebar>\n        <div class=\"sidebar-background\" style=\"background-image: url(../assets/img/sidebar-4.jpg)\"></div>\n    </div>\n    <div class=\"main-panel\" [ngStyle]=\"{'width': !sidebar?'100%':''}\">\n        <app-navbar [hidden]=\"!sidebar\"></app-navbar>\n        <router-outlet></router-outlet>\n        <div [hidden]=\"!sidebar\">\n            <app-footer ></app-footer>\n        </div>\n    </div>\n    \n</div>\n"
 
 /***/ }),
 
@@ -289,11 +542,11 @@ var AppComponent = /** @class */ (function () {
         return bool;
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_3__components_navbar_navbar_component__["a" /* NavbarComponent */]),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_3__components_navbar_navbar_component__["a" /* NavbarComponent */]),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_3__components_navbar_navbar_component__["a" /* NavbarComponent */])
     ], AppComponent.prototype, "navbar", void 0);
     AppComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-root',
             template: __webpack_require__("./src/app/app.component.html"),
             styles: [__webpack_require__("./src/app/app.component.css")]
@@ -327,25 +580,32 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__auth_guard_service__ = __webpack_require__("./src/app/auth-guard.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_components_module__ = __webpack_require__("./src/app/components/components.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__tableau_de_bord_tableau_de_bord_component__ = __webpack_require__("./src/app/tableau-de-bord/tableau-de-bord.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__membre_du_projet_user_profile_component__ = __webpack_require__("./src/app/membre-du-projet/user-profile.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__nomenclature_table_list_component__ = __webpack_require__("./src/app/nomenclature/table-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__documentation_upgrade_component__ = __webpack_require__("./src/app/documentation/upgrade.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__session_session_module__ = __webpack_require__("./src/app/session/session.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ao_status_ao_status_component__ = __webpack_require__("./src/app/ao-status/ao-status.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__employees_employees_component__ = __webpack_require__("./src/app/employees/employees.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__situation_situation_component__ = __webpack_require__("./src/app/situation/situation.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ng2_charts__ = __webpack_require__("./node_modules/ng2-charts/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_components_module__ = __webpack_require__("./src/app/components/components.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tableau_de_bord_tableau_de_bord_component__ = __webpack_require__("./src/app/tableau-de-bord/tableau-de-bord.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__ = __webpack_require__("./src/app/membre-du-projet/user-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__nomenclature_table_list_component__ = __webpack_require__("./src/app/nomenclature/table-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__documentation_upgrade_component__ = __webpack_require__("./src/app/documentation/upgrade.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__session_session_module__ = __webpack_require__("./src/app/session/session.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ao_status_ao_status_component__ = __webpack_require__("./src/app/ao-status/ao-status.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__employees_employees_component__ = __webpack_require__("./src/app/employees/employees.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__situation_situation_component__ = __webpack_require__("./src/app/situation/situation.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_ag_grid_angular_main__ = __webpack_require__("./node_modules/ag-grid-angular/main.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_ag_grid_angular_main___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29_ag_grid_angular_main__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__chart_test_chart_test_component__ = __webpack_require__("./src/app/chart-test/chart-test.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_jqwidgets_scripts_jqwidgets_ts_angular_jqxchart__ = __webpack_require__("./node_modules/jqwidgets-scripts/jqwidgets-ts/angular_jqxchart.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -375,11 +635,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+//import { ChartModule } from 'modules/chart.module'
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             exports: [
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["b" /* MatAutocompleteModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["c" /* MatButtonModule */],
@@ -387,7 +651,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["e" /* MatCardModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["f" /* MatCheckboxModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["g" /* MatChipsModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["E" /* MatStepperModule */],
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["F" /* MatStepperModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["h" /* MatDatepickerModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["j" /* MatDialogModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["l" /* MatDividerModule */],
@@ -408,23 +672,25 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["B" /* MatSliderModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["A" /* MatSlideToggleModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["C" /* MatSnackBarModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["D" /* MatSortModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["F" /* MatTableModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["G" /* MatTabsModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["H" /* MatToolbarModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["I" /* MatTooltipModule */],
-                __WEBPACK_IMPORTED_MODULE_26__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */]
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["E" /* MatSortModule */],
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["G" /* MatTableModule */],
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["H" /* MatTabsModule */],
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["I" /* MatToolbarModule */],
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["J" /* MatTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_27__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */]
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
                 //Dashboard
-                __WEBPACK_IMPORTED_MODULE_18__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */],
-                __WEBPACK_IMPORTED_MODULE_19__membre_du_projet_user_profile_component__["b" /* UserProfileComponent */],
-                __WEBPACK_IMPORTED_MODULE_19__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__nomenclature_table_list_component__["a" /* TableListComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__documentation_upgrade_component__["a" /* UpgradeComponent */],
-                __WEBPACK_IMPORTED_MODULE_23__ao_status_ao_status_component__["a" /* AoStatusComponent */],
-                __WEBPACK_IMPORTED_MODULE_27__situation_situation_component__["a" /* SituationComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__["b" /* UserProfileComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__nomenclature_table_list_component__["a" /* TableListComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__documentation_upgrade_component__["a" /* UpgradeComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__ao_status_ao_status_component__["a" /* AoStatusComponent */],
+                __WEBPACK_IMPORTED_MODULE_28__situation_situation_component__["a" /* SituationComponent */],
+                __WEBPACK_IMPORTED_MODULE_30__chart_test_chart_test_component__["a" /* ChartTestComponent */],
+                __WEBPACK_IMPORTED_MODULE_31_jqwidgets_scripts_jqwidgets_ts_angular_jqxchart__["a" /* jqxChartComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -434,24 +700,27 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["e" /* MatCardModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["y" /* MatSelectModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["c" /* MatButtonModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["I" /* MatTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["J" /* MatTooltipModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["j" /* MatDialogModule */],
                 __WEBPACK_IMPORTED_MODULE_14__angular_material__["p" /* MatInputModule */],
-                __WEBPACK_IMPORTED_MODULE_17__components_components_module__["a" /* ComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_22__session_session_module__["a" /* SessionModule */],
+                __WEBPACK_IMPORTED_MODULE_18__components_components_module__["a" /* ComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_23__session_session_module__["a" /* SessionModule */],
                 __WEBPACK_IMPORTED_MODULE_6_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_9__environments_environment__["a" /* environment */].firebaseConfig, 'angular-auth-firebase'),
                 __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__["b" /* AngularFireDatabaseModule */],
                 __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__["b" /* AngularFirestoreModule */],
-                __WEBPACK_IMPORTED_MODULE_15__angular_router__["e" /* RouterModule */],
-                __WEBPACK_IMPORTED_MODULE_16__app_routing__["a" /* AppRoutingModule */],
-                __WEBPACK_IMPORTED_MODULE_25_ngx_toastr__["a" /* ToastrModule */].forRoot(),
-                __WEBPACK_IMPORTED_MODULE_24__employees_employees_component__["a" /* EmployeesModule */],
+                __WEBPACK_IMPORTED_MODULE_16__angular_router__["e" /* RouterModule */],
+                __WEBPACK_IMPORTED_MODULE_17__app_routing__["a" /* AppRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_26_ngx_toastr__["a" /* ToastrModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_25__employees_employees_component__["a" /* EmployeesModule */],
                 __WEBPACK_IMPORTED_MODULE_11_angularfire2_auth__["b" /* AngularFireAuthModule */],
-                __WEBPACK_IMPORTED_MODULE_12__angular_common__["b" /* CommonModule */]
+                __WEBPACK_IMPORTED_MODULE_12__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_15_ng2_charts__["ChartsModule"],
+                __WEBPACK_IMPORTED_MODULE_29_ag_grid_angular_main__["AgGridModule"].withComponents([]),
+                __WEBPACK_IMPORTED_MODULE_14__angular_material__["G" /* MatTableModule */]
             ],
             providers: [__WEBPACK_IMPORTED_MODULE_10__auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_13__auth_guard_service__["a" /* AuthGuard */]],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_19__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */]]
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */]]
         })
     ], AppModule);
     return AppModule;
@@ -478,6 +747,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__session_sign_up_sign_up_component__ = __webpack_require__("./src/app/session/sign-up/sign-up.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__session_login_login_component__ = __webpack_require__("./src/app/session/login/login.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__auth_guard_service__ = __webpack_require__("./src/app/auth-guard.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__chart_test_chart_test_component__ = __webpack_require__("./src/app/chart-test/chart-test.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -496,12 +766,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var routes = [
     { path: 'tableau-de-bord', component: __WEBPACK_IMPORTED_MODULE_5__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_11__auth_guard_service__["a" /* AuthGuard */]] },
     { path: 'membre-du-projet', component: __WEBPACK_IMPORTED_MODULE_6__membre_du_projet_user_profile_component__["b" /* UserProfileComponent */] },
     { path: 'formulaire', component: __WEBPACK_IMPORTED_MODULE_4__ao_status_ao_status_component__["a" /* AoStatusComponent */] },
     { path: 'situation', component: __WEBPACK_IMPORTED_MODULE_8__situation_situation_component__["a" /* SituationComponent */] },
     { path: 'documentation', component: __WEBPACK_IMPORTED_MODULE_7__documentation_upgrade_component__["a" /* UpgradeComponent */] },
+    { path: 'app-chart-test', component: __WEBPACK_IMPORTED_MODULE_12__chart_test_chart_test_component__["a" /* ChartTestComponent */] },
     //{ path: 'meta',        component: MetaSenderComponent },
     { path: 'signup', component: __WEBPACK_IMPORTED_MODULE_9__session_sign_up_sign_up_component__["a" /* SignUpComponent */], data: { sidebar: false } },
     { path: 'login', component: __WEBPACK_IMPORTED_MODULE_10__session_login_login_component__["a" /* LoginComponent */], data: { sidebar: false } },
@@ -511,7 +783,7 @@ var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
@@ -560,7 +832,7 @@ var AuthGuard = /** @class */ (function () {
         return false;
     };
     AuthGuard = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["C" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_router__["d" /* Router */],
             __WEBPACK_IMPORTED_MODULE_0__auth_service__["a" /* AuthService */]])
     ], AuthGuard);
@@ -690,13 +962,132 @@ var AuthService = /** @class */ (function () {
             .then(function (res) { return _this.router.navigate(['/login']); });
     };
     AuthService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */],
             __WEBPACK_IMPORTED_MODULE_1__angular_router__["d" /* Router */],
             __WEBPACK_IMPORTED_MODULE_4_angularfire2_firestore__["a" /* AngularFirestore */],
             __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], AuthService);
     return AuthService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/chart-test/chart-test.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[0].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[0].dataSource\" [showBorderLine]=\"true\" \n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n<jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[1].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[1].dataSource\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n\n<jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[2].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[2].dataSource\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n<jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[3].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[3].dataSource\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>"
+
+/***/ }),
+
+/***/ "./src/app/chart-test/chart-test.component.scss":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/chart-test/chart-test.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChartTestComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ChartTestComponent = /** @class */ (function () {
+    function ChartTestComponent() {
+        this.dataStatCounter = [
+            { Browser: 'Chrome', Share: 45.6 },
+            { Browser: 'IE', Share: 24.6 },
+            { Browser: 'Firefox', Share: 20.4 },
+            { Browser: 'Safari', Share: 5.1 },
+            { Browser: 'Opera', Share: 1.3 },
+            { Browser: 'Other', Share: 3.0 }
+        ];
+        this.dataW3CCounter = [
+            { Browser: 'Chrome', Share: 34.1 },
+            { Browser: 'IE', Share: 20.3 },
+            { Browser: 'Firefox', Share: 18.3 },
+            { Browser: 'Safari', Share: 17.8 },
+            { Browser: 'Opera', Share: 2.7 },
+            { Browser: 'Other', Share: 6.8 }
+        ];
+        this.dataWikimedia = [
+            { Browser: 'Chrome', Share: 42.7 },
+            { Browser: 'IE', Share: 18.0 },
+            { Browser: 'Firefox', Share: 15.3 },
+            { Browser: 'Safari', Share: 6.1 },
+            { Browser: 'Opera', Share: 2.4 },
+            { Browser: 'Other', Share: 15.6 }
+        ];
+        this.dataNetApplications = [
+            { Browser: 'Chrome', Share: 16.4 },
+            { Browser: 'IE', Share: 55.2 },
+            { Browser: 'Firefox', Share: 18.0 },
+            { Browser: 'Safari', Share: 5.8 },
+            { Browser: 'Opera', Share: 1.3 },
+            { Browser: 'Other', Share: 3.4 }
+        ];
+        this.charts = [
+            { title: 'Stat counter', label: 'Stat', dataSource: this.dataStatCounter },
+            { title: 'W3C counter', label: 'W3C', dataSource: this.dataW3CCounter },
+            { title: 'Wikimedia', label: 'Wikimedia', dataSource: this.dataWikimedia },
+            { title: 'Net Applications', label: 'NetApp', dataSource: this.dataNetApplications }
+        ];
+        this.padding = { left: 5, top: 5, right: 5, bottom: 5 };
+        this.titlePadding = { left: 0, top: 0, right: 0, bottom: 10 };
+        this.seriesGroups = [
+            {
+                type: 'pie',
+                showLegend: true,
+                enableSeriesToggle: true,
+                series: [
+                    {
+                        dataField: 'Share',
+                        displayText: 'Browser',
+                        showLabels: true,
+                        labelRadius: 160,
+                        labelLinesEnabled: true,
+                        labelLinesAngles: true,
+                        labelsAutoRotate: false,
+                        initialAngle: 0,
+                        radius: 125,
+                        minAngle: 0,
+                        maxAngle: 180,
+                        centerOffset: 0,
+                        offsetY: 170,
+                        formatFunction: function (value, itemIdx, serieIndex, groupIndex) {
+                            if (isNaN(value))
+                                return value;
+                            return value + '%';
+                        }
+                    }
+                ]
+            }
+        ];
+    }
+    ChartTestComponent.prototype.ngOnInit = function () {
+    };
+    ChartTestComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-chart-test',
+            template: __webpack_require__("./src/app/chart-test/chart-test.component.html"),
+            styles: [__webpack_require__("./src/app/chart-test/chart-test.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ChartTestComponent);
+    return ChartTestComponent;
 }());
 
 
@@ -730,7 +1121,7 @@ var ComponentsModule = /** @class */ (function () {
     function ComponentsModule() {
     }
     ComponentsModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_router__["e" /* RouterModule */],
@@ -794,7 +1185,7 @@ var FooterComponent = /** @class */ (function () {
     FooterComponent.prototype.ngOnInit = function () {
     };
     FooterComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-footer',
             template: __webpack_require__("./src/app/components/footer/footer.component.html"),
             styles: [__webpack_require__("./src/app/components/footer/footer.component.css")]
@@ -902,12 +1293,12 @@ var NavbarComponent = /** @class */ (function () {
         this.authService.logout();
     };
     NavbarComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-navbar',
             template: __webpack_require__("./src/app/components/navbar/navbar.component.html"),
             styles: [__webpack_require__("./src/app/components/navbar/navbar.component.css")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_common__["f" /* Location */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], __WEBPACK_IMPORTED_MODULE_3__auth_service__["a" /* AuthService */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_common__["f" /* Location */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["ElementRef"], __WEBPACK_IMPORTED_MODULE_3__auth_service__["a" /* AuthService */]])
     ], NavbarComponent);
     return NavbarComponent;
 }());
@@ -982,7 +1373,7 @@ var SidebarComponent = /** @class */ (function () {
         return ('isAdmin' in this.authService.loggedInUser && this.authService.loggedInUser['isAdmin']);
     };
     SidebarComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-sidebar',
             template: __webpack_require__("./src/app/components/sidebar/sidebar.component.html"),
             styles: [__webpack_require__("./src/app/components/sidebar/sidebar.component.css")]
@@ -1032,7 +1423,7 @@ var UpgradeComponent = /** @class */ (function () {
     UpgradeComponent.prototype.ngOnInit = function () {
     };
     UpgradeComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-upgrade',
             template: __webpack_require__("./src/app/documentation/upgrade.component.html"),
             styles: [__webpack_require__("./src/app/documentation/upgrade.component.css")]
@@ -1143,7 +1534,7 @@ var EmployeeListComponent = /** @class */ (function () {
         }
     };
     EmployeeListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-employee-list',
             template: __webpack_require__("./src/app/employees/employee-list/employee-list.component.html"),
             styles: [__webpack_require__("./src/app/employees/employee-list/employee-list.component.css")]
@@ -1256,7 +1647,7 @@ var EmployeeComponent = /** @class */ (function () {
         };
     };
     EmployeeComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-employee',
             template: __webpack_require__("./src/app/employees/employee/employee.component.html"),
             styles: [__webpack_require__("./src/app/employees/employee/employee.component.css")]
@@ -1311,7 +1702,7 @@ var EmployeesComponent = /** @class */ (function () {
         this.employeeService = employeeService;
     }
     EmployeesComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-employees',
             template: "<div class=\"text-center\">\n  <h2 class=\"jumbotron\">Espace de saisie de donn\u00E9es</h2>\n</div>\n<div class=\"\">\n  <div class=\"col-sm-7\">\n    <app-employee></app-employee>\n  </div>\n  <div class=\"col-md-3 \" style=\" display:relative; right:-10%;\">\n    <app-employee-list></app-employee-list>\n  </div>\n</div>",
             providers: [__WEBPACK_IMPORTED_MODULE_5__shared_employee_service__["a" /* EmployeeService */]]
@@ -1325,7 +1716,7 @@ var EmployeesModule = /** @class */ (function () {
     function EmployeesModule() {
     }
     EmployeesModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_router__["e" /* RouterModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormsModule */],
@@ -1432,7 +1823,7 @@ var EmployeeService = /** @class */ (function () {
         this.employeeList.remove($key);
     };
     EmployeeService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], EmployeeService);
     return EmployeeService;
@@ -1517,7 +1908,7 @@ var UserProfileComponent = /** @class */ (function () {
         });
     };
     UserProfileComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-user-profile',
             template: __webpack_require__("./src/app/membre-du-projet/user-profile.component.html"),
             styles: [__webpack_require__("./src/app/membre-du-projet/user-profile.component.css")]
@@ -1548,11 +1939,11 @@ var NewUserDialogComponent = /** @class */ (function () {
         return (this.newUser.email !== '' && this.newUser.password !== '');
     };
     NewUserDialogComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-new-user',
             template: "\n  <h2 mat-dialog-title>New User</h2>\n  <mat-dialog-content>\n    <form class=\"example-form\">\n      <mat-form-field class=\"example-full-width\">\n        <input matInput name=\"email\" placeholder=\"Email address\" [(ngModel)]=\"newUser.email\">\n      </mat-form-field>\n\n      <mat-form-field class=\"example-full-width\">\n        <input type=\"password\" matInput name=\"password\" placeholder=\"Password\" [(ngModel)]=\"newUser.password\">\n      </mat-form-field>\n    </form>\n  </mat-dialog-content>\n\n  <mat-dialog-actions>\n      <button class=\"mat-raised-button\" (click)=\"onNoClick()\">Close</button>\n      <button class=\"mat-raised-button mat-primary\" [disabled]=\"!isValid()\" (click)=\"onSaveClick()\">Save</button>\n  </mat-dialog-actions>\n  ",
         }),
-        __param(1, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_material__["a" /* MAT_DIALOG_DATA */])),
+        __param(1, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(__WEBPACK_IMPORTED_MODULE_2__angular_material__["a" /* MAT_DIALOG_DATA */])),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_material__["k" /* MatDialogRef */], Object])
     ], NewUserDialogComponent);
     return NewUserDialogComponent;
@@ -1747,7 +2138,7 @@ var MetaSenderComponent = /** @class */ (function () {
         this.model.receiver = e.target.value;
     };
     MetaSenderComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-meta-sender',
             template: __webpack_require__("./src/app/meta/meta-sender/meta-sender.component.html"),
             styles: [__webpack_require__("./src/app/meta/meta-sender/meta-sender.component.css")]
@@ -1786,7 +2177,7 @@ var MetaModule = /** @class */ (function () {
     function MetaModule() {
     }
     MetaModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */],
                 __WEBPACK_IMPORTED_MODULE_4__angular_router__["e" /* RouterModule */],
@@ -1839,7 +2230,7 @@ var TableListComponent = /** @class */ (function () {
     TableListComponent.prototype.ngOnInit = function () {
     };
     TableListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-table-list',
             template: __webpack_require__("./src/app/nomenclature/table-list.component.html"),
             styles: [__webpack_require__("./src/app/nomenclature/table-list.component.css")]
@@ -1863,36 +2254,36 @@ var TableListComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 
 function moveIn() {
-    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* trigger */])('moveIn', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* state */])('void', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ position: 'fixed', width: '100%' })),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* state */])('*', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ position: 'fixed', width: '100%' })),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* transition */])(':enter', [
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '0', transform: 'translateX(100px)' }),
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* animate */])('.6s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '1', transform: 'translateX(0)' }))
+    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('moveIn', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('void', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ position: 'fixed', width: '100%' })),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["state"])('*', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ position: 'fixed', width: '100%' })),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':enter', [
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '0', transform: 'translateX(100px)' }),
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('.6s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '1', transform: 'translateX(0)' }))
         ]),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* transition */])(':leave', [
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '1', transform: 'translateX(0)' }),
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* animate */])('.3s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '0', transform: 'translateX(-200px)' }))
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':leave', [
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '1', transform: 'translateX(0)' }),
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('.3s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '0', transform: 'translateX(-200px)' }))
         ])
     ]);
 }
 function fallIn() {
-    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* trigger */])('fallIn', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* transition */])(':enter', [
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '0', transform: 'translateY(40px)' }),
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* animate */])('.4s .2s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '1', transform: 'translateY(0)' }))
+    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('fallIn', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':enter', [
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '0', transform: 'translateY(40px)' }),
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('.4s .2s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '1', transform: 'translateY(0)' }))
         ]),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* transition */])(':leave', [
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '1', transform: 'translateX(0)' }),
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* animate */])('.3s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '0', transform: 'translateX(-200px)' }))
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':leave', [
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '1', transform: 'translateX(0)' }),
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('.3s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '0', transform: 'translateX(-200px)' }))
         ])
     ]);
 }
 function moveInLeft() {
-    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* trigger */])('moveInLeft', [
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* transition */])(':enter', [
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '0', transform: 'translateX(-100px)' }),
-            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* animate */])('.6s .2s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* style */])({ opacity: '1', transform: 'translateX(0)' }))
+    return Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["trigger"])('moveInLeft', [
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["transition"])(':enter', [
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '0', transform: 'translateX(-100px)' }),
+            Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["animate"])('.6s .2s ease-in-out', Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["style"])({ opacity: '1', transform: 'translateX(0)' }))
         ])
     ]);
 }
@@ -1910,7 +2301,7 @@ module.exports = "\n container {\n    display: relative;\n    -webkit-box-orient
 /***/ "./src/app/session/login/login.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"wrapper\">\n\n  <div class=\"page-header\" style=\"background-image: url('../assets/img/login2.jpg');background-size: 100% 100%;\">\n    <div class=\"filter\"></div>\n    <div class=\"container\">\n      <div class=\"login__page\">\n        <div class=\"row\">\n          <div class=\"card col-md-2 col-md-offset-4\">\n            <div class=\"login__card\">\n              <div class=\"card-block\">\n                <div class=\"form-group\" class=\"social-line text-center\">\n                  <h3 align=\"center\">Welcome</h3>\n                  <a class=\"btn btn-neutral btn-facebook btn-just-icon\" (click)=\"signInWithFacebook()\">\n                    <i class=\"fa fa-facebook-square\"></i>\n                  </a>\n                  <a class=\"btn btn-neutral btn-twitter btn-just-icon\" (click)=\"signInWithTwitter()\">\n                    <i class=\"fa fa-twitter\" ></i>\n\n                  </a>\n\n                  <a class=\"btn btn-neutral btn-google btn-just-icon\" (click)=\"signInWithGoogle()\">\n                    <i class=\"fa fa-google\" ></i>\n                  </a>\n                </div>\n                <form name=\"userform\" method=\"post\" #formCtrl=\"ngForm\">\n\n                  <div class=\"form-group\">\n\n                    <input type=\"email\" class=\"form-control\" [(ngModel)]=\"user.email\" name=\"email\" placeholder=\"Email\" required>\n                  </div>\n                  <div class=\"form-group\">\n\n                    <input type=\"password\" class=\"form-control\" [(ngModel)]=\"user.password\" name=\"password\" placeholder=\"Password\" required>\n                  </div>\n\n                  <div class=\"form-group\">\n                    <button type=\"buton\" class=\"btn btn-primary btn-block\" (click)=\"signInWithEmail()\" [disabled]=\"formCtrl.form.invalid\">\n                      Login with Email\n                    </button>\n                  </div>\n                </form>\n\n                \n              </div>\n            </div>\n          </div>\n          <div class=\"footer register-footer text-center\">\n              <h6>&copy;{{test | date: 'yyyy'}}, cree avec \n                <i class=\"fa fa-heart heart\"></i>  par khaoula.\n                <i class=\"fa fa-graduation-cap\"></i><a href=\"https://www.uae.ma/website/index.php\">\n                  université\n              </a>\n              <i class=\"fa fa-building\"></i><a href=\"http://www.ocpgroup.ma/fr\">\n                ocpgroup\n            </a>\n              </h6>\n            </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"wrapper\">\n\n  <div class=\"page-header\" style=\"background-image: url('../assets/img/login2.jpg');background-size: 100% 100%;\">\n    <div class=\"filter\"></div>\n    <div class=\"container\">\n      <div class=\"login__page\">\n        <div class=\"row\">\n          <div class=\"card col-md-2 col-md-offset-4\">\n            <div class=\"login__card\">\n              <div class=\"card-block\">\n                <div class=\"form-group\" class=\"social-line text-center\">\n                  <h3 align=\"center\">Welcome</h3>\n                  <a class=\"btn btn-neutral btn-facebook btn-just-icon\" (click)=\"signInWithFacebook()\">\n                    <i class=\"fa fa-facebook-square\"></i>\n                  </a>\n                  <a class=\"btn btn-neutral btn-twitter btn-just-icon\" (click)=\"signInWithTwitter()\">\n                    <i class=\"fa fa-twitter\" ></i>\n\n                  </a>\n\n                  <a class=\"btn btn-neutral btn-google btn-just-icon\" (click)=\"signInWithGoogle()\">\n                    <i class=\"fa fa-google\" ></i>\n                  </a>\n                </div>\n                <form name=\"userform\" method=\"post\" #formCtrl=\"ngForm\">\n\n                  <div class=\"form-group\">\n\n                    <input type=\"email\" class=\"form-control\" [(ngModel)]=\"user.email\" name=\"email\" placeholder=\"Email\" required>\n                  </div>\n                  <div class=\"form-group\">\n\n                    <input type=\"password\" class=\"form-control\" [(ngModel)]=\"user.password\" name=\"password\" placeholder=\"Password\" required>\n                  </div>\n\n                  <div class=\"form-group\">\n                    <button type=\"buton\" class=\"btn btn-primary btn-block\" (click)=\"signInWithEmail()\" [disabled]=\"formCtrl.form.invalid\">\n                      Login with Email\n                    </button>\n                  </div>\n                </form>\n\n                \n              </div>\n            </div>\n          </div>\n          <div class=\"footer register-footer text-center\">\n              <h6>&copy;{{test | date: 'yyyy'}}, cree avec \n                <i class=\"fa fa-heart heart\"></i>  par khaoula.\n                <i class=\"fa fa-graduation-cap\"></i><a href=\"https://www.uae.ma/website/index.php\">\n                  université\n              </a>\n              <i class=\"fa fa-building\"></i><a href=\"http://www.ocpgroup.ma/fr\">\n                ocpgroup\n            </a>\n            <i class=\"fa fa-building\"></i><a href=\"https://www.interticket.com/\">\n              Interticket kft\n          </a>\n              </h6>\n            </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1970,7 +2361,7 @@ var LoginComponent = /** @class */ (function () {
             .catch(function (err) { return console.log('error: ' + err); });
     };
     LoginComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-login',
             template: __webpack_require__("./src/app/session/login/login.component.html"),
             styles: [__webpack_require__("./src/app/session/login/login.component.css")],
@@ -2016,7 +2407,7 @@ var SessionModule = /** @class */ (function () {
     function SessionModule() {
     }
     SessionModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_5__angular_forms__["h" /* ReactiveFormsModule */],
                 __WEBPACK_IMPORTED_MODULE_5__angular_forms__["c" /* FormsModule */],
@@ -2028,7 +2419,7 @@ var SessionModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["e" /* MatCardModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["f" /* MatCheckboxModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["g" /* MatChipsModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["E" /* MatStepperModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["F" /* MatStepperModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["h" /* MatDatepickerModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["j" /* MatDialogModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["l" /* MatDividerModule */],
@@ -2049,11 +2440,11 @@ var SessionModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["B" /* MatSliderModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["A" /* MatSlideToggleModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["C" /* MatSnackBarModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["D" /* MatSortModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["F" /* MatTableModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["G" /* MatTabsModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["H" /* MatToolbarModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["I" /* MatTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["E" /* MatSortModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["G" /* MatTableModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["H" /* MatTabsModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["I" /* MatToolbarModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["J" /* MatTooltipModule */],
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__login_login_component__["a" /* LoginComponent */],
@@ -2122,7 +2513,7 @@ var SignUpComponent = /** @class */ (function () {
         this.router = router;
     }
     SignUpComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-sign-up',
             template: __webpack_require__("./src/app/session/sign-up/sign-up.component.html"),
             styles: [__webpack_require__("./src/app/session/sign-up/sign-up.component.css")],
@@ -2162,7 +2553,8 @@ module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\"
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__employees_shared_employee_service__ = __webpack_require__("./src/app/employees/shared/employee.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__auth_service__ = __webpack_require__("./src/app/auth.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__auth_service__ = __webpack_require__("./src/app/auth.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2177,16 +2569,45 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var SituationComponent = /** @class */ (function () {
-    function SituationComponent(employeeService, auth, db, tostr) {
+    function SituationComponent(employeeService, auth, db, tostr, firebase) {
         this.employeeService = employeeService;
         this.auth = auth;
         this.db = db;
         this.tostr = tostr;
+        this.firebase = firebase;
+        this.key = 'numDa'; //set default
+        this.reverse = false;
+        this.columnDefs = [
+            {
+                headerName: "numDa",
+                field: "numDa",
+                width: 150,
+                sortingOrder: ["asc", "desc"]
+            },
+            {
+                headerName: "designation",
+                field: "designation",
+                width: 150
+            }
+        ];
     }
+    SituationComponent.prototype.sort = function (key) {
+        this.key = key;
+        this.reverse = !this.reverse;
+    };
+    SituationComponent.prototype.onGridReady = function (params) {
+        //this.loadEmployeeData(data.value['$key']);
+        this.gridApi = params.api;
+        this.gridColumnApi = params.columnApi;
+        var dataValue = [{ "numDa": "cc", "designation": 22 }];
+        params.api.setRowData(dataValue);
+    };
     SituationComponent.prototype.ngOnInit = function () {
         this.loadUsers();
         this.loadEmployeeData();
+        this.dataSource.sort = this.sort;
     };
     SituationComponent.prototype.loadEmployeeData = function (uid) {
         var _this = this;
@@ -2235,16 +2656,21 @@ var SituationComponent = /** @class */ (function () {
             this.tostr.warning("Deleted Successfully", "Employee register");
         }
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_4__angular_material__["D" /* MatSort */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__angular_material__["D" /* MatSort */])
+    ], SituationComponent.prototype, "Sort", void 0);
     SituationComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-situation',
             template: __webpack_require__("./src/app/situation/situation.component.html"),
             styles: [__webpack_require__("./src/app/situation/situation.component.css")]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__employees_shared_employee_service__["a" /* EmployeeService */],
-            __WEBPACK_IMPORTED_MODULE_4__auth_service__["a" /* AuthService */],
+            __WEBPACK_IMPORTED_MODULE_5__auth_service__["a" /* AuthService */],
             __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
-            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */]])
+            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */],
+            __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], SituationComponent);
     return SituationComponent;
 }());
@@ -2263,7 +2689,7 @@ module.exports = ""
 /***/ "./src/app/tableau-de-bord/tableau-de-bord.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-3 col-md-6 col-sm-6\">\n                <div class=\"card card-stats\">\n                    <div class=\"card-header\" data-background-color=\"orange\">\n                        <i class=\"material-icons\">AO</i>\n                    </div>\n                    <div class=\"card-content\">\n                        <p class=\"category\">Statut</p>\n                        <h3 class=\"title\">49\n                            <small>unité</small>\n                        </h3>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons text-danger\">warning</i>\n                            <a href=\"#pablo\">49/100 sont cloturer</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-md-6 col-sm-6\">\n                <div class=\"card card-stats\">\n                    <div class=\"card-header\" data-background-color=\"red\">\n                        <i class=\"material-icons\">RFI</i>\n                    </div>\n                    <div class=\"card-content\">\n                        <p class=\"category\">Statut</p>\n                        <h3 class=\"title\">75\n                            <small>unité</small>\n                        </h3>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons text-danger\">warning</i>\n                            <a href=\"#pablo\">75/100 sont cloturer</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card\">\n                    <div class=\"card-header card-chart\" data-background-color=\"green\">\n                        <div class=\"ct-chart\" id=\"dailySalesChart\"></div>\n                    </div>\n                    <div class=\"card-content\">\n                        <h4 class=\"title\">AO Chart</h4>\n                        <p class=\"category\">\n                            <span class=\"text-success\">\n                                <i class=\"fa fa-long-arrow-up\"></i> 55% </span> Augmentation.</p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons\">access_time</i> actualisé il y'a 4 minutes\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card\">\n                    <div class=\"card-header card-chart\" data-background-color=\"red\">\n                        <div class=\"ct-chart\" id=\"completedTasksChart\"></div>\n                    </div>\n                    <div class=\"card-content\">\n                        <h4 class=\"title\">RFI Chart</h4>\n                        <p class=\"category\"></p>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons\">access_time</i>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"row\">\n            <div class=\"col-lg-6 col-md-12\">\n                <div class=\"card card-nav-tabs\">\n                    <div class=\"card-header\" data-background-color=\"purple\">\n                        <div class=\"nav-tabs-navigation\">\n                            <div class=\"nav-tabs-wrapper\">\n                                <span class=\"nav-tabs-title\">Tasks:</span>\n                                <ul class=\"nav nav-tabs\" data-tabs=\"tabs\">\n                                    <li class=\"active\">\n                                        <a href=\"#profile\" data-toggle=\"tab\">\n                                            <i class=\"material-icons\">bug_report</i>\n                                            Bugs\n                                            <div class=\"ripple-container\"></div>\n                                        </a>\n                                    </li>\n                                    <li class=\"\">\n                                        <a href=\"#messages\" data-toggle=\"tab\">\n                                            <i class=\"material-icons\">code</i>\n                                            Ajustement\n                                            <div class=\"ripple-container\"></div>\n                                        </a>\n                                    </li>\n                                    <li class=\"\">\n                                        <a href=\"#settings\" data-toggle=\"tab\">\n                                            <i class=\"material-icons\">cloud</i>\n                                            Note\n                                            <div class=\"ripple-container\"></div>\n                                        </a>\n                                    </li>\n                                </ul>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"card-content\">\n                        <div class=\"tab-content\">\n                            <div class=\"tab-pane active\" id=\"profile\">\n                                <table class=\"table\">\n                                    <tbody>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td>Avertir fournisseur 1?\"</td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td>Notifier Fournisseur 2 sur l'equipement2?</td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td>\n                                            </td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td></td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                    </tbody>\n                                </table>\n                            </div>\n                            <div class=\"tab-pane\" id=\"messages\">\n                                <table class=\"table\">\n                                    <tbody>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td>\n                                            </td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td></td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                    </tbody>\n                                </table>\n                            </div>\n                            <div class=\"tab-pane\" id=\"settings\">\n                                <table class=\"table\">\n                                    <tbody>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td></td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td>\n                                            </td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td>\n                                                <div class=\"checkbox\">\n                                                    <label>\n                                                        <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                    </label>\n                                                </div>\n                                            </td>\n                                            <td></td>\n                                            <td class=\"td-actions text-right\">\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">edit</i>\n                                                </button>\n                                                <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                    <i class=\"material-icons\">close</i>\n                                                </button>\n                                            </td>\n                                        </tr>\n                                    </tbody>\n                                </table>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12\">\n                <div class=\"card\">\n                    <div class=\"card-header\" data-background-color=\"orange\">\n                        <h4 class=\"title\">Situation</h4>\n                        <p class=\"category\"></p>\n                    </div>\n                    <div class=\"card-content table-responsive\">\n                        <table class=\"table table-hover\">\n                            <thead class=\"text-warning\">\n                                    <tr>\n                                            <th>numDa</th>\n                                            <th>numRfi</th>\n                                            <th>situationRfi</th>\n                                            <th>numAo</th>\n                                            <th>situationAo</th>\n                                            <th>montantDeLaCad</th>\n                                          </tr>\n                            </thead>\n                            <tbody>\n                                <tr *ngFor=\"let employee of employeeList\">\n                                    <td>{{employee.numDa}}</td>\n                                    <td>{{employee.numRfi}}</td>\n                                    <td>{{employee.situationRfi}}</td>\n                                    <td>{{employee.numAo}}</td>\n                                    <td>{{employee.situationAo}}</td>\n                                    <td>{{employee.montantDeLaCad}}</td>\n                                </tr>\n                            </tbody>\n                        </table>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-3 col-md-6 col-sm-6\">\n                <div class=\"card card-stats\">\n                    <div class=\"card-header\" data-background-color=\"orange\">\n                        <i class=\"material-icons\">AO</i>\n                    </div>\n                    <div class=\"card-content\">\n                        <p class=\"category\">Statut</p>\n                        <h3 class=\"title\">49\n                            <small>unité</small>\n                        </h3>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons text-danger\">warning</i>\n                            <a href=\"#pablo\">49/100 sont cloturer</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-md-6 col-sm-6\">\n                <div class=\"card card-stats\">\n                    <div class=\"card-header\" data-background-color=\"red\">\n                        <i class=\"material-icons\">RFI</i>\n                    </div>\n                    <div class=\"card-content\">\n                        <p class=\"category\">Statut</p>\n                        <h3 class=\"title\">75\n                            <small>unité</small>\n                        </h3>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons text-danger\">warning</i>\n                            <a href=\"#pablo\">75/100 sont cloturer</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n            <jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[0].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[0].dataSource\" [showBorderLine]=\"true\" \n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n<jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[1].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[1].dataSource\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n            <div class=\"row\">\n                <div class=\"col-lg-6 col-md-12\">\n                    <div class=\"card card-nav-tabs\">\n                        <div class=\"card-header\" data-background-color=\"purple\">\n                            <div class=\"nav-tabs-navigation\">\n                                <div class=\"nav-tabs-wrapper\">\n                                    <span class=\"nav-tabs-title\">Tasks:</span>\n                                    <ul class=\"nav nav-tabs\" data-tabs=\"tabs\">\n                                        <li class=\"active\">\n                                            <a href=\"#profile\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">bug_report</i>\n                                                Bugs\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                        <li class=\"\">\n                                            <a href=\"#messages\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">code</i>\n                                                Ajustement\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                        <li class=\"\">\n                                            <a href=\"#settings\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">cloud</i>\n                                                Note\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                    </ul>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"card-content\">\n                            <div class=\"tab-content\">\n                                <div class=\"tab-pane active\" id=\"profile\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>Avertir fournisseur 1?\"</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>Notifier Fournisseur 2 sur l'equipement2?</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                                <div class=\"tab-pane\" id=\"messages\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                                <div class=\"tab-pane\" id=\"settings\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-6 col-md-12\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" data-background-color=\"orange\">\n                            <h4 class=\"title\">Situation</h4>\n                            <p class=\"category\"></p>\n                        </div>\n                        <div class=\"card-content table-responsive\">\n                            <table class=\"table table-hover\">\n                                <thead class=\"text-warning\">\n                                    <tr>\n                                        <th>numDa</th>\n                                        <th>numRfi</th>\n                                        <th>situationRfi</th>\n                                        <th>numAo</th>\n                                        <th>situationAo</th>\n                                        <th>montantDeLaCad</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr *ngFor=\"let employee of employeeList\">\n                                        <td>{{employee.numDa}}</td>\n                                        <td>{{employee.numRfi}}</td>\n                                        <td>{{employee.situationRfi}}</td>\n                                        <td>{{employee.numAo}}</td>\n                                        <td>{{employee.situationAo}}</td>\n                                        <td>{{employee.montantDeLaCad}}</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n "
 
 /***/ }),
 
@@ -2297,6 +2723,78 @@ var DashboardComponent = /** @class */ (function () {
         this.employeeService = employeeService;
         this.auth = auth;
         this.db = db;
+        //Chart
+        this.view = [500, 300];
+        this.showLegend = true;
+        this.colorScheme = {
+            domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+        };
+        this.showLabels = true;
+        this.explodeSlices = false;
+        this.doughnut = false;
+        // Radar
+        this.radarChartLabels = ['annulé', 'en-cours-de-preparation', 'publié', 'à ouvrir', 'attente evaluation RFI', 'attente CGAO', 'attente GEL', 'attente lancement AO', 'attente avis technique', 'étude commercial', 'attente CAD', 'attente AE', 'attente validation contrat-Attribué', 'Soldé'];
+        this.radarChartData = [
+            { data: [this.employeeService.selectedEmployee.numRfi, this.employeeService.selectedEmployee.situationRfi], label: 'RfI' },
+            { data: [this.employeeService.selectedEmployee.numAo, this.employeeService.selectedEmployee.situationAo], label: 'AO' }
+        ];
+        this.radarChartType = 'radar';
+        this.dataRFICounter = [
+            { Browser: 'annulé', Share: 45.6 },
+            { Browser: 'en-cours-de-preparation', Share: 24.6 },
+            { Browser: 'publié', Share: 20.4 },
+            { Browser: 'à ouvrir', Share: 5.1 },
+            { Browser: 'attente evaluation RFI', Share: 1.3 },
+            { Browser: 'attente CGAO', Share: 3.0 },
+            { Browser: 'attente GEL', Share: 1.3 },
+            { Browser: 'attente lancement AO', Share: 3.0 }
+        ];
+        this.dataAOCounter = [
+            { Browser: 'annulé', Share: 34.1 },
+            { Browser: 'publié', Share: 20.3 },
+            { Browser: 'à ouvrir', Share: 18.3 },
+            { Browser: 'attente avis technique', Share: 17.8 },
+            { Browser: 'étude commercial', Share: 2.7 },
+            { Browser: 'attente CAD', Share: 6.8 },
+            { Browser: 'attente AE', Share: 2.7 },
+            { Browser: 'attente validation contrat-Attribué', Share: 6.8 },
+            { Browser: 'Soldé', Share: 6.8 }
+        ];
+        this.charts = [
+            { title: 'AO', label: 'Ao', dataSource: this.dataAOCounter },
+            { title: 'RFI', label: 'Rfi', dataSource: this.dataRFICounter }
+        ];
+        this.padding = { left: 5, top: 5, right: 5, bottom: 5 };
+        this.titlePadding = { left: 0, top: 0, right: 0, bottom: 10 };
+        this.seriesGroups = [
+            {
+                type: 'pie',
+                showLegend: true,
+                enableSeriesToggle: true,
+                series: [
+                    {
+                        dataField: 'Share',
+                        displayText: 'Browser',
+                        showLabels: true,
+                        labelRadius: 160,
+                        labelLinesEnabled: true,
+                        labelLinesAngles: true,
+                        labelsAutoRotate: false,
+                        initialAngle: 0,
+                        radius: 125,
+                        minAngle: 0,
+                        maxAngle: 180,
+                        centerOffset: 0,
+                        offsetY: 170,
+                        formatFunction: function (value, itemIdx, serieIndex, groupIndex) {
+                            if (isNaN(value))
+                                return value;
+                            return value + '%';
+                        }
+                    }
+                ]
+            }
+        ];
     }
     DashboardComponent.prototype.startAnimationForLineChart = function (chart) {
         var seq, delays, durations;
@@ -2460,8 +2958,15 @@ var DashboardComponent = /** @class */ (function () {
     };
     DashboardComponent.prototype.loadsumAo = function () {
     };
+    // events
+    DashboardComponent.prototype.chartClicked = function (e) {
+        console.log(e);
+    };
+    DashboardComponent.prototype.chartHovered = function (e) {
+        console.log(e);
+    };
     DashboardComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-dashboard',
             template: __webpack_require__("./src/app/tableau-de-bord/tableau-de-bord.component.html"),
             styles: [__webpack_require__("./src/app/tableau-de-bord/tableau-de-bord.component.css")]
@@ -2498,7 +3003,7 @@ var UtilModule = /** @class */ (function () {
     function UtilModule() {
     }
     UtilModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */]
             ],
@@ -2642,7 +3147,7 @@ var Web3Service = /** @class */ (function () {
         });
     };
     Web3Service = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [])
     ], Web3Service);
     return Web3Service;
@@ -2657,16 +3162,10 @@ var Web3Service = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_firebase__ = __webpack_require__("./node_modules/firebase/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_firebase__);
 // The file contents for the current environment will overwrite these during build.
 // The build system defaults to the dev environment which uses `environment.ts`, but if you do
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
-
-if (!__WEBPACK_IMPORTED_MODULE_0_firebase__["apps"].length) {
-    __WEBPACK_IMPORTED_MODULE_0_firebase__["initializeApp"]({});
-}
 var environment = {
     production: false,
     firebaseConfig: {
@@ -2678,7 +3177,6 @@ var environment = {
         messagingSenderId: "41938723753"
     }
 };
-/* unused harmony default export */ var _unused_webpack_default_export = (!__WEBPACK_IMPORTED_MODULE_0_firebase__["apps"].length ? __WEBPACK_IMPORTED_MODULE_0_firebase__["initializeApp"](environment) : __WEBPACK_IMPORTED_MODULE_0_firebase__["app"]());
 
 
 /***/ }),
@@ -2697,7 +3195,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_18" /* enableProdMode */])();
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 
