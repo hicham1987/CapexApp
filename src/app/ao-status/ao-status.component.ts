@@ -1,12 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { NgForm } from '@angular/forms'
-import { EmployeeService } from '../employees/shared/employee.service';
-import { ToastrService } from 'ngx-toastr';
-import { EmployeesComponent } from '../employees/employees.component'
-import { AuthService } from './../auth.service';
-import {MatCardModule} from '@angular/material/card';
-import { AngularFireDatabase } from 'angularfire2/database';
-import { Employee } from '../employees/shared/employee.model';
+import {Component, OnInit} from '@angular/core';
+import {NgForm} from '@angular/forms';
+import {EmployeeService} from '../employees/shared/employee.service';
+import {ToastrService} from 'ngx-toastr';
+import {AuthService} from './../auth.service';
+import {AngularFireDatabase} from 'angularfire2/database';
+import {Employee} from '../employees/shared/employee.model';
 
 
 @Component({
@@ -58,12 +56,12 @@ export class AoStatusComponent implements OnInit {
       designation : '',
       numDossier : null,
       chefP: '',
-      estimation:null,
-      numRfi:null,
-      situationRfi:'',
-      numAo :null,
-      situationAo :'',
-      montantDeLaCad :0,
+      estimation: null,
+      numRfi: 0,
+      situationRfi: '',
+      numAo : 0,
+      situationAo : '',
+      montantDeLaCad: 0
     };
   }
   loadEmployeeData(uid = null) {

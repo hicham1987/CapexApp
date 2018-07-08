@@ -1,6 +1,6 @@
-import { AuthService } from './auth.service';
-import { Injectable } from '@angular/core';
-import { Router, CanActivate } from '@angular/router';
+import {AuthService} from './auth.service';
+import {Injectable} from '@angular/core';
+import {CanActivate, Router} from '@angular/router';
 
 @Injectable()
 export class AuthGuard implements CanActivate {
@@ -14,7 +14,7 @@ export class AuthGuard implements CanActivate {
       return true;
 
     }
-    
+
     this.router.navigate(['/tableau-de-bord']);
     return false;
   }

@@ -6,12 +6,12 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyB2qSPiAXRb-mPW6uDQ21O2VcKVtMPoiCQ",
-    authDomain: "capex-81906.firebaseapp.com",
-    databaseURL: "https://capex-81906.firebaseio.com",
-    projectId: "capex-81906",
-    storageBucket: "",
-    messagingSenderId: "41938723753"
+    apiKey: 'AIzaSyB2qSPiAXRb-mPW6uDQ21O2VcKVtMPoiCQ',
+    authDomain: 'capex-81906.firebaseapp.com',
+    databaseURL: 'https://capex-81906.firebaseio.com',
+    projectId: 'capex-81906',
+    storageBucket: '',
+    messagingSenderId: '41938723753'
   }
 };
 

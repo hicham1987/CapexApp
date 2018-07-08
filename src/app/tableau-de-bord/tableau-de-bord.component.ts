@@ -1,13 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import * as Chartist from 'chartist';
-import { NgForm } from '@angular/forms';
-import { MatSelectModule } from '@angular/material/select';
-import { EmployeeService } from '../employees/shared/employee.service';
-import { Employee} from '../employees/shared/employee.model';
-import { AngularFireDatabase } from 'angularfire2/database';
-import { AuthService } from './../auth.service';
-import { jqxChartComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxchart';
-
+import {EmployeeService} from '../employees/shared/employee.service';
+import {Employee} from '../employees/shared/employee.model';
+import {AngularFireDatabase} from 'angularfire2/database';
+import {AuthService} from './../auth.service';
 
 
 @Component({
@@ -17,8 +13,12 @@ import { jqxChartComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxcha
 })
 export class DashboardComponent implements OnInit {
   employeeList: Employee[];
-  selecteduser; 
+  selecteduser;
   public users;
+
+    dataRFI: any = [];
+    dataAO: any = [];
+    dataLoaded = false;
 
  //Chart
  view: any[] = [500, 300];
@@ -38,10 +38,10 @@ export class DashboardComponent implements OnInit {
       let seq: any, delays: any, durations: any;
       seq = 0;
       delays = 80;
-      durations = 500; 
+      durations = 500;
 
       chart.on('draw', function(data) {
-        if(data.type === 'line' || data.type === 'area') {
+        if (data.type === 'line' || data.type === 'area') {
           data.element.animate({
             d: {
               begin: 600,
@@ -51,7 +51,7 @@ export class DashboardComponent implements OnInit {
               easing: Chartist.Svg.Easing.easeOutQuint
             }
           });
-        } else if(data.type === 'point') {
+        } else if (data.type === 'point') {
               seq++;
               data.element.animate({
                 opacity: {
@@ -74,7 +74,7 @@ export class DashboardComponent implements OnInit {
       delays2 = 80;
       durations2 = 500;
       chart.on('draw', function(data) {
-        if(data.type === 'bar'){
+        if (data.type === 'bar'){
             seq2++;
             data.element.animate({
               opacity: {
@@ -107,9 +107,9 @@ export class DashboardComponent implements OnInit {
           low: 0,
           high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0},
-      }
+      };
 
-      var dailySalesChart = new Chartist.Line('#dailySalesChart', dataDailySalesChart, optionsDailySalesChart);
+      const dailySalesChart = new Chartist.Line('#dailySalesChart', dataDailySalesChart, optionsDailySalesChart);
 
       this.startAnimationForLineChart(dailySalesChart);
 
@@ -130,9 +130,9 @@ export class DashboardComponent implements OnInit {
           low: 0,
           high: 1000, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
           chartPadding: { top: 0, right: 0, bottom: 0, left: 0}
-      }
+      };
 
-      var completedTasksChart = new Chartist.Line('#completedTasksChart', dataCompletedTasksChart, optionsCompletedTasksChart);
+      const completedTasksChart = new Chartist.Line('#completedTasksChart', dataCompletedTasksChart, optionsCompletedTasksChart);
 
       // start animation for the Completed Tasks Chart - Line Chart
       this.startAnimationForLineChart(completedTasksChart);
@@ -141,14 +141,14 @@ export class DashboardComponent implements OnInit {
 
       /* ----------==========     Emails Subscription Chart initialization    ==========---------- */
 
-      var dataEmailsSubscriptionChart = {
+      const dataEmailsSubscriptionChart = {
         labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         series: [
           [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
 
         ]
       };
-      var optionsEmailsSubscriptionChart = {
+      const optionsEmailsSubscriptionChart = {
           axisX: {
               showGrid: false
           },
@@ -156,7 +156,7 @@ export class DashboardComponent implements OnInit {
           high: 1000,
           chartPadding: { top: 0, right: 5, bottom: 0, left: 0}
       };
-      var responsiveOptions: any[] = [
+      const responsiveOptions: any[] = [
         ['screen and (max-width: 640px)', {
           seriesBarDistance: 5,
           axisX: {
@@ -166,7 +166,7 @@ export class DashboardComponent implements OnInit {
           }
         }]
       ];
-      var emailsSubscriptionChart = new Chartist.Bar('#emailsSubscriptionChart', dataEmailsSubscriptionChart, optionsEmailsSubscriptionChart, responsiveOptions);
+      const emailsSubscriptionChart = new Chartist.Bar('#emailsSubscriptionChart', dataEmailsSubscriptionChart, optionsEmailsSubscriptionChart, responsiveOptions);
 
       //start animation for the Emails Subscription Chart
       this.startAnimationForBarChart(emailsSubscriptionChart);
@@ -186,6 +186,7 @@ export class DashboardComponent implements OnInit {
           this.employeeList.push(y as Employee);
         }
       });
+        this.convertToChartData();
     });
   }
 
@@ -213,24 +214,44 @@ export class DashboardComponent implements OnInit {
     return ( 'isAdmin' in this.auth.loggedInUser && this.auth.loggedInUser['isAdmin']);
   }
 
-  loadsumAo(){
 
-  }  
+
+  convertToChartData() {
+      let sumAO = 0;
+      let sumRFI = 0;
+      this.employeeList.forEach(employee => {
+          sumAO = +sumAO + +employee.numAo;
+          sumRFI = +sumRFI + +employee.numRfi;
+      });
+
+      this.employeeList.forEach(employee => {
+            const RFIEntry = {
+              Browser: employee.situationRfi, Share: parseFloat((employee.numRfi * 100 / sumRFI).toFixed(2))
+            };
+            const AOEntry = {
+              Browser: employee.situationAo, Share: parseFloat((employee.numAo * 100 / sumAO).toFixed(2))
+            };
+            this.dataRFI.push(RFIEntry);
+            this.dataAO.push(AOEntry);
+      });
+      this.dataLoaded = true;
+  }
+
   // Radar
-  public radarChartLabels:string[] = ['annulé', 'en-cours-de-preparation', 'publié', 'à ouvrir', 'attente evaluation RFI', 'attente CGAO', 'attente GEL','attente lancement AO','attente avis technique','étude commercial','attente CAD','attente AE','attente validation contrat-Attribué','Soldé'];
-  emp: Employee
-  public radarChartData:any = [
-    {data: [this.employeeService.selectedEmployee.numRfi,this.employeeService.selectedEmployee.situationRfi], label: 'RfI'},
+  public radarChartLabels: string[] = ['annulé', 'en-cours-de-preparation', 'publié', 'à ouvrir', 'attente evaluation RFI', 'attente CGAO', 'attente GEL', 'attente lancement AO', 'attente avis technique', 'étude commercial', 'attente CAD', 'attente AE', 'attente validation contrat-Attribué', 'Soldé'];
+  emp: Employee;
+  public radarChartData: any = [
+    {data: [this.employeeService.selectedEmployee.numRfi, this.employeeService.selectedEmployee.situationRfi], label: 'RfI'},
     {data: [this.employeeService.selectedEmployee.numAo, this.employeeService.selectedEmployee.situationAo], label: 'AO'}
   ];
-  public radarChartType:string = 'radar';
- 
+  public radarChartType = 'radar';
+
   // events
-  public chartClicked(e:any):void {
+  public chartClicked(e: any): void {
     console.log(e);
   }
- 
-  public chartHovered(e:any):void {
+
+  public chartHovered(e: any): void {
     console.log(e);
   }
 
@@ -258,8 +279,8 @@ export class DashboardComponent implements OnInit {
       { Browser: 'Soldé', Share: 6.8 }
   ];
   charts: any[] = [
-      { title: 'AO', label: 'Ao', dataSource: this.dataAOCounter },
-      { title: 'RFI', label: 'Rfi', dataSource: this.dataRFICounter }
+      { title: 'AO', label: 'Ao', dataSource: this.dataAO },
+      { title: 'RFI', label: 'Rfi', dataSource: this.dataRFI }
   ];
 
   padding: any = { left: 5, top: 5, right: 5, bottom: 5 };
