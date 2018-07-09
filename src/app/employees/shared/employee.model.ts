@@ -1,13 +1,15 @@
 export class Employee {
-    $key : string;
-    numDa : number;
-    designation : string;
-    numDossier : number;
-    chefP: string;
-    estimation:number;
-    numRfi:number;
-    situationRfi:string;
-    numAo : number;
-    situationAo : string;
-    montantDeLaCad : number;
+    constructor(
+        public $key: string,
+    public numDa: number,
+    public designation: string,
+    public numDossier: number,
+    public chefP: string,
+    public estimation: number,
+    public numRfi: number,
+    public situationRfi: string,
+    public numAo: number,
+    public situationAo: string,
+    public montantDeLaCad: number,
+    ) {}
 }

@@ -19,41 +19,65 @@
           </div>
           <mat-card>
             <div class="card-content table-responsive">
-              <table class="table table-hover">
-                <thead>
-                  <tr >
-                    <th class="text-primary"><strong>numDa</strong></th>
-                    <th class="text-primary"><strong>designation</strong></th>
-                    <th class="text-primary"><strong>numDossier</strong></th>
-                    <th class="text-primary"><strong>chefP</strong></th>
-                    <th class="text-primary"><strong>estimation</strong></th>
-                    <th class="text-primary"><strong>numRfi</strong></th>
-                    <th class="text-primary"><strong>situationRfi</strong></th>
-                    <th class="text-primary"><strong>numAo</strong></th>
-                    <th class="text-primary"><strong>situationAo</strong></th>
-                    <th class="text-primary"><strong>montantDeLaCad</strong></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let employee of employeeList">
-                    <td>{{employee.numDa}}</td>
-                    <td>{{employee.designation}}</td>
-                    <td>{{employee.numDossier}}</td>
-                    <td>{{employee.chefP}}</td>
-                    <td>{{employee.estimation}}</td>
-                    <td>{{employee.numRfi}}</td>
-                    <td>{{employee.situationRfi}}</td>
-                    <td>{{employee.numAo}}</td>
-                    <td>{{employee.situationAo}}</td>
-                    <td>{{employee.montantDeLaCad}}</td>
-                    <td>
-                      <a class="btn" (click)="onDelete(employee.$key)">
-                        <i class="fa fa-trash-o"></i>
+              <mat-form-field>
+                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+              </mat-form-field>
+
+              <mat-table [dataSource]="dataSource">
+                <ng-container matColumnDef="numDa">
+                  <mat-header-cell *matHeaderCellDef> numDa </mat-header-cell>
+                  <mat-cell  *matCellDef="let element"> {{element.numDa}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="designation">
+                  <mat-header-cell *matHeaderCellDef> designation </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.designation}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="numDossier">
+                  <mat-header-cell *matHeaderCellDef> numDossier </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.numDossier}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="numRfi">
+                  <mat-header-cell *matHeaderCellDef> numRfi </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.numRfi}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="situationRfi">
+                  <mat-header-cell *matHeaderCellDef> situationRfi </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.situationRfi}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="numAo">
+                  <mat-header-cell *matHeaderCellDef> numAo </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.numAo}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="situationAo">
+                  <mat-header-cell *matHeaderCellDef> situationAo </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.situationAo}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="montantDeLaCad">
+                  <mat-header-cell *matHeaderCellDef> montantDeLaCad </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.montantDeLaCad}} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="delete">
+                  <mat-header-cell *matHeaderCellDef></mat-header-cell>
+                  <mat-cell mat-cell *matCellDef="let element">
+                      <a class="btn" (click)="onDelete(element.$key)">
+                       <i class="fa fa-trash-o"></i>
                       </a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                  </mat-cell>
+                </ng-container>
+
+                <mat-header-row  *matHeaderRowDef="displayedColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+              </mat-table>
+              <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
             </div>
         
       </mat-card>

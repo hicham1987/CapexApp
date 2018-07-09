@@ -820,7 +820,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__("./src/styles.css");
@@ -836,5 +836,5 @@ module.exports = __webpack_require__("./node_modules/jqwidgets-scripts/jqwidgets
 
 /***/ })
 
-},[6]);
+},[2]);
 //# sourceMappingURL=styles.bundle.js.map

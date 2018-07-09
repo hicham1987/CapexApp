@@ -1,8 +1,7 @@
-import { Component } from '@angular/core'
+import {Component} from '@angular/core';
 import {AuthService} from '../../auth.service';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { FacebookService, LoginResponse, InitParams } from 'ngx-facebook';
-import { Router } from '@angular/router';
+import {Router} from '@angular/router';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -22,7 +21,7 @@ export class LoginComponent {
   signInWithFacebook() {
     this.authService.signInWithFacebook()
     .then((res) => {
-        this.router.navigate(['/tableau-de-bord'])
+        this.router.navigate(['/tableau-de-bord']);
       })
     .catch((err) => console.log(err));
   }
@@ -31,7 +30,7 @@ export class LoginComponent {
   signInWithGoogle() {
     this.authService.signInWithGoogle()
     .then((res) => {
-        this.router.navigate(['/tableau-de-bord'])
+        this.router.navigate(['/tableau-de-bord']);
       })
     .catch((err) => console.log(err));
   }

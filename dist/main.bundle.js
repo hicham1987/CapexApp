@@ -1,12 +1,5 @@
 webpackJsonp(["main"],{
 
-/***/ "./build/contracts/MetaCoin.json":
-/***/ (function(module, exports) {
-
-module.exports = {"contractName":"MetaCoin","abi":[{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_from","type":"address"},{"indexed":true,"name":"_to","type":"address"},{"indexed":false,"name":"_value","type":"uint256"}],"name":"Transfer","type":"event"},{"constant":false,"inputs":[{"name":"receiver","type":"address"},{"name":"amount","type":"uint256"}],"name":"sendCoin","outputs":[{"name":"sufficient","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"getBalanceInEth","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"getBalance","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"}],"bytecode":"0x6060604052341561000f57600080fd5b6127106000803273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506103b8806100636000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101eb565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610344565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610344565b60026040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101cd57600080fd5b5af415156101da57600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101561023c576000905061033e565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a72305820e2286e7edb2719cc4049d108042ec0395cc6a87f1845fb8202087c5dc90a85ad0029","deployedBytecode":"0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101eb565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610344565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610344565b60026040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101cd57600080fd5b5af415156101da57600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054101561023c576000905061033e565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a72305820e2286e7edb2719cc4049d108042ec0395cc6a87f1845fb8202087c5dc90a85ad0029","sourceMap":"316:675:1:-;;;453:62;;;;;;;;506:5;484:8;:19;493:9;484:19;;;;;;;;;;;;;;;:27;;;;316:675;;;;;;","deployedSourceMap":"316:675:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;780:117;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;518:259;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;900:89;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;780:117;839:4;855:10;:18;874:16;885:4;874:10;:16::i;:::-;891:1;855:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;848:45;;780:117;;;:::o;518:259::-;582:15;630:6;607:8;:20;616:10;607:20;;;;;;;;;;;;;;;;:29;603:47;;;645:5;638:12;;;;603:47;678:6;654:8;:20;663:10;654:20;;;;;;;;;;;;;;;;:30;;;;;;;;;;;710:6;688:8;:18;697:8;688:18;;;;;;;;;;;;;;;;:28;;;;;;;;;;;741:8;720:38;;729:10;720:38;;;751:6;720:38;;;;;;;;;;;;;;;;;;769:4;762:11;;518:259;;;;;:::o;900:89::-;954:4;971:8;:14;980:4;971:14;;;;;;;;;;;;;;;;964:21;;900:89;;;:::o","source":"pragma solidity ^0.4.16;\n\nimport \"./ConvertLib.sol\";\n\n// This is just a simple example of a coin-like contract.\n// It is not standards compatible and cannot be expected to talk to other\n// coin/token contracts. If you want to create a standards-compliant\n// token, see: https://github.com/ConsenSys/Tokens. Cheers!\n\ncontract MetaCoin {\n\tmapping (address => uint) balances;\n\n\tevent Transfer(address indexed _from, address indexed _to, uint256 _value);\n\n\tfunction MetaCoin() public {\n\t\tbalances[tx.origin] = 10000;\n\t}\n\n\tfunction sendCoin(address receiver, uint amount) public returns(bool sufficient) {\n\t\tif (balances[msg.sender] < amount) return false;\n\t\tbalances[msg.sender] -= amount;\n\t\tbalances[receiver] += amount;\n\t\tTransfer(msg.sender, receiver, amount);\n\t\treturn true;\n\t}\n\n\tfunction getBalanceInEth(address addr) public view returns(uint){\n\t\treturn ConvertLib.convert(getBalance(addr),2);\n\t}\n\n\tfunction getBalance(address addr) public view returns(uint) {\n\t\treturn balances[addr];\n\t}\n}\n","sourcePath":"/home/h/Documents/KhaoulaPro/ProTest/contracts/MetaCoin.sol","ast":{"absolutePath":"/home/h/Documents/KhaoulaPro/ProTest/contracts/MetaCoin.sol","exportedSymbols":{"MetaCoin":[112]},"id":113,"nodeType":"SourceUnit","nodes":[{"id":18,"literals":["solidity","^","0.4",".16"],"nodeType":"PragmaDirective","src":"0:24:1"},{"absolutePath":"/home/h/Documents/KhaoulaPro/ProTest/contracts/ConvertLib.sol","file":"./ConvertLib.sol","id":19,"nodeType":"ImportDirective","scope":113,"sourceUnit":17,"src":"26:26:1","symbolAliases":[],"unitAlias":""},{"baseContracts":[],"contractDependencies":[],"contractKind":"contract","documentation":null,"fullyImplemented":true,"id":112,"linearizedBaseContracts":[112],"name":"MetaCoin","nodeType":"ContractDefinition","nodes":[{"constant":false,"id":23,"name":"balances","nodeType":"VariableDeclaration","scope":112,"src":"337:34:1","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"typeName":{"id":22,"keyType":{"id":20,"name":"address","nodeType":"ElementaryTypeName","src":"346:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Mapping","src":"337:25:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"valueType":{"id":21,"name":"uint","nodeType":"ElementaryTypeName","src":"357:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}},"value":null,"visibility":"internal"},{"anonymous":false,"documentation":null,"id":31,"name":"Transfer","nodeType":"EventDefinition","parameters":{"id":30,"nodeType":"ParameterList","parameters":[{"constant":false,"id":25,"indexed":true,"name":"_from","nodeType":"VariableDeclaration","scope":31,"src":"390:21:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":24,"name":"address","nodeType":"ElementaryTypeName","src":"390:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":27,"indexed":true,"name":"_to","nodeType":"VariableDeclaration","scope":31,"src":"413:19:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":26,"name":"address","nodeType":"ElementaryTypeName","src":"413:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":29,"indexed":false,"name":"_value","nodeType":"VariableDeclaration","scope":31,"src":"434:14:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":28,"name":"uint256","nodeType":"ElementaryTypeName","src":"434:7:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"389:60:1"},"src":"375:75:1"},{"body":{"id":41,"nodeType":"Block","src":"480:35:1","statements":[{"expression":{"argumentTypes":null,"id":39,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":34,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"484:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":37,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":35,"name":"tx","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":192,"src":"493:2:1","typeDescriptions":{"typeIdentifier":"t_magic_transaction","typeString":"tx"}},"id":36,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"origin","nodeType":"MemberAccess","referencedDeclaration":null,"src":"493:9:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"484:19:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"hexValue":"3130303030","id":38,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"506:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_10000_by_1","typeString":"int_const 10000"},"value":"10000"},"src":"484:27:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":40,"nodeType":"ExpressionStatement","src":"484:27:1"}]},"documentation":null,"id":42,"implemented":true,"isConstructor":true,"isDeclaredConst":false,"modifiers":[],"name":"MetaCoin","nodeType":"FunctionDefinition","parameters":{"id":32,"nodeType":"ParameterList","parameters":[],"src":"470:2:1"},"payable":false,"returnParameters":{"id":33,"nodeType":"ParameterList","parameters":[],"src":"480:0:1"},"scope":112,"src":"453:62:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":82,"nodeType":"Block","src":"599:178:1","statements":[{"condition":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":56,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":51,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"607:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":54,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":52,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"616:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":53,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"616:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"607:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"<","rightExpression":{"argumentTypes":null,"id":55,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"630:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"607:29:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"falseBody":null,"id":59,"nodeType":"IfStatement","src":"603:47:1","trueBody":{"expression":{"argumentTypes":null,"hexValue":"66616c7365","id":57,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"645:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"false"},"functionReturnParameters":50,"id":58,"nodeType":"Return","src":"638:12:1"}},{"expression":{"argumentTypes":null,"id":65,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":60,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"654:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":63,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":61,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"663:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":62,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"663:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"654:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"-=","rightHandSide":{"argumentTypes":null,"id":64,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"678:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"654:30:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":66,"nodeType":"ExpressionStatement","src":"654:30:1"},{"expression":{"argumentTypes":null,"id":71,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":67,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"688:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":69,"indexExpression":{"argumentTypes":null,"id":68,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"697:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"688:18:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"+=","rightHandSide":{"argumentTypes":null,"id":70,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"710:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"688:28:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":72,"nodeType":"ExpressionStatement","src":"688:28:1"},{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"expression":{"argumentTypes":null,"id":74,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"729:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":75,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"729:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":76,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"741:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":77,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"751:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_uint256","typeString":"uint256"}],"id":73,"name":"Transfer","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":31,"src":"720:8:1","typeDescriptions":{"typeIdentifier":"t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$","typeString":"function (address,address,uint256)"}},"id":78,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"720:38:1","typeDescriptions":{"typeIdentifier":"t_tuple$__$","typeString":"tuple()"}},"id":79,"nodeType":"ExpressionStatement","src":"720:38:1"},{"expression":{"argumentTypes":null,"hexValue":"74727565","id":80,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"769:4:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"true"},"functionReturnParameters":50,"id":81,"nodeType":"Return","src":"762:11:1"}]},"documentation":null,"id":83,"implemented":true,"isConstructor":false,"isDeclaredConst":false,"modifiers":[],"name":"sendCoin","nodeType":"FunctionDefinition","parameters":{"id":47,"nodeType":"ParameterList","parameters":[{"constant":false,"id":44,"name":"receiver","nodeType":"VariableDeclaration","scope":83,"src":"536:16:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":43,"name":"address","nodeType":"ElementaryTypeName","src":"536:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":46,"name":"amount","nodeType":"VariableDeclaration","scope":83,"src":"554:11:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":45,"name":"uint","nodeType":"ElementaryTypeName","src":"554:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"535:31:1"},"payable":false,"returnParameters":{"id":50,"nodeType":"ParameterList","parameters":[{"constant":false,"id":49,"name":"sufficient","nodeType":"VariableDeclaration","scope":83,"src":"582:15:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"typeName":{"id":48,"name":"bool","nodeType":"ElementaryTypeName","src":"582:4:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"value":null,"visibility":"internal"}],"src":"581:17:1"},"scope":112,"src":"518:259:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":98,"nodeType":"Block","src":"844:53:1","statements":[{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"arguments":[{"argumentTypes":null,"id":93,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":85,"src":"885:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"}],"id":92,"name":"getBalance","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":111,"src":"874:10:1","typeDescriptions":{"typeIdentifier":"t_function_internal_view$_t_address_$returns$_t_uint256_$","typeString":"function (address) view returns (uint256)"}},"id":94,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"874:16:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},{"argumentTypes":null,"hexValue":"32","id":95,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"891:1:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"},"value":"2"}],"expression":{"argumentTypes":[{"typeIdentifier":"t_uint256","typeString":"uint256"},{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"}],"expression":{"argumentTypes":null,"id":90,"name":"ConvertLib","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":16,"src":"855:10:1","typeDescriptions":{"typeIdentifier":"t_type$_t_contract$_ConvertLib_$16_$","typeString":"type(library ConvertLib)"}},"id":91,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"convert","nodeType":"MemberAccess","referencedDeclaration":15,"src":"855:18:1","typeDescriptions":{"typeIdentifier":"t_function_delegatecall_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$","typeString":"function (uint256,uint256) pure returns (uint256)"}},"id":96,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"855:38:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":89,"id":97,"nodeType":"Return","src":"848:45:1"}]},"documentation":null,"id":99,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalanceInEth","nodeType":"FunctionDefinition","parameters":{"id":86,"nodeType":"ParameterList","parameters":[{"constant":false,"id":85,"name":"addr","nodeType":"VariableDeclaration","scope":99,"src":"805:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":84,"name":"address","nodeType":"ElementaryTypeName","src":"805:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"804:14:1"},"payable":false,"returnParameters":{"id":89,"nodeType":"ParameterList","parameters":[{"constant":false,"id":88,"name":"","nodeType":"VariableDeclaration","scope":99,"src":"839:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":87,"name":"uint","nodeType":"ElementaryTypeName","src":"839:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"838:6:1"},"scope":112,"src":"780:117:1","stateMutability":"view","superFunction":null,"visibility":"public"},{"body":{"id":110,"nodeType":"Block","src":"960:29:1","statements":[{"expression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":106,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"971:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":108,"indexExpression":{"argumentTypes":null,"id":107,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":101,"src":"980:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"971:14:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":105,"id":109,"nodeType":"Return","src":"964:21:1"}]},"documentation":null,"id":111,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalance","nodeType":"FunctionDefinition","parameters":{"id":102,"nodeType":"ParameterList","parameters":[{"constant":false,"id":101,"name":"addr","nodeType":"VariableDeclaration","scope":111,"src":"920:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":100,"name":"address","nodeType":"ElementaryTypeName","src":"920:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"919:14:1"},"payable":false,"returnParameters":{"id":105,"nodeType":"ParameterList","parameters":[{"constant":false,"id":104,"name":"","nodeType":"VariableDeclaration","scope":111,"src":"954:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":103,"name":"uint","nodeType":"ElementaryTypeName","src":"954:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"953:6:1"},"scope":112,"src":"900:89:1","stateMutability":"view","superFunction":null,"visibility":"public"}],"scope":113,"src":"316:675:1"}],"src":"0:992:1"},"legacyAST":{"absolutePath":"/home/h/Documents/KhaoulaPro/ProTest/contracts/MetaCoin.sol","exportedSymbols":{"MetaCoin":[112]},"id":113,"nodeType":"SourceUnit","nodes":[{"id":18,"literals":["solidity","^","0.4",".16"],"nodeType":"PragmaDirective","src":"0:24:1"},{"absolutePath":"/home/h/Documents/KhaoulaPro/ProTest/contracts/ConvertLib.sol","file":"./ConvertLib.sol","id":19,"nodeType":"ImportDirective","scope":113,"sourceUnit":17,"src":"26:26:1","symbolAliases":[],"unitAlias":""},{"baseContracts":[],"contractDependencies":[],"contractKind":"contract","documentation":null,"fullyImplemented":true,"id":112,"linearizedBaseContracts":[112],"name":"MetaCoin","nodeType":"ContractDefinition","nodes":[{"constant":false,"id":23,"name":"balances","nodeType":"VariableDeclaration","scope":112,"src":"337:34:1","stateVariable":true,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"typeName":{"id":22,"keyType":{"id":20,"name":"address","nodeType":"ElementaryTypeName","src":"346:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"nodeType":"Mapping","src":"337:25:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"},"valueType":{"id":21,"name":"uint","nodeType":"ElementaryTypeName","src":"357:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}},"value":null,"visibility":"internal"},{"anonymous":false,"documentation":null,"id":31,"name":"Transfer","nodeType":"EventDefinition","parameters":{"id":30,"nodeType":"ParameterList","parameters":[{"constant":false,"id":25,"indexed":true,"name":"_from","nodeType":"VariableDeclaration","scope":31,"src":"390:21:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":24,"name":"address","nodeType":"ElementaryTypeName","src":"390:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":27,"indexed":true,"name":"_to","nodeType":"VariableDeclaration","scope":31,"src":"413:19:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":26,"name":"address","nodeType":"ElementaryTypeName","src":"413:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":29,"indexed":false,"name":"_value","nodeType":"VariableDeclaration","scope":31,"src":"434:14:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":28,"name":"uint256","nodeType":"ElementaryTypeName","src":"434:7:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"389:60:1"},"src":"375:75:1"},{"body":{"id":41,"nodeType":"Block","src":"480:35:1","statements":[{"expression":{"argumentTypes":null,"id":39,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":34,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"484:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":37,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":35,"name":"tx","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":192,"src":"493:2:1","typeDescriptions":{"typeIdentifier":"t_magic_transaction","typeString":"tx"}},"id":36,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"origin","nodeType":"MemberAccess","referencedDeclaration":null,"src":"493:9:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"484:19:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"=","rightHandSide":{"argumentTypes":null,"hexValue":"3130303030","id":38,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"506:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_10000_by_1","typeString":"int_const 10000"},"value":"10000"},"src":"484:27:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":40,"nodeType":"ExpressionStatement","src":"484:27:1"}]},"documentation":null,"id":42,"implemented":true,"isConstructor":true,"isDeclaredConst":false,"modifiers":[],"name":"MetaCoin","nodeType":"FunctionDefinition","parameters":{"id":32,"nodeType":"ParameterList","parameters":[],"src":"470:2:1"},"payable":false,"returnParameters":{"id":33,"nodeType":"ParameterList","parameters":[],"src":"480:0:1"},"scope":112,"src":"453:62:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":82,"nodeType":"Block","src":"599:178:1","statements":[{"condition":{"argumentTypes":null,"commonType":{"typeIdentifier":"t_uint256","typeString":"uint256"},"id":56,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftExpression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":51,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"607:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":54,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":52,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"616:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":53,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"616:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"607:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"BinaryOperation","operator":"<","rightExpression":{"argumentTypes":null,"id":55,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"630:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"607:29:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"falseBody":null,"id":59,"nodeType":"IfStatement","src":"603:47:1","trueBody":{"expression":{"argumentTypes":null,"hexValue":"66616c7365","id":57,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"645:5:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"false"},"functionReturnParameters":50,"id":58,"nodeType":"Return","src":"638:12:1"}},{"expression":{"argumentTypes":null,"id":65,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":60,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"654:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":63,"indexExpression":{"argumentTypes":null,"expression":{"argumentTypes":null,"id":61,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"663:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":62,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"663:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"654:20:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"-=","rightHandSide":{"argumentTypes":null,"id":64,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"678:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"654:30:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":66,"nodeType":"ExpressionStatement","src":"654:30:1"},{"expression":{"argumentTypes":null,"id":71,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"leftHandSide":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":67,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"688:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":69,"indexExpression":{"argumentTypes":null,"id":68,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"697:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":true,"nodeType":"IndexAccess","src":"688:18:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"nodeType":"Assignment","operator":"+=","rightHandSide":{"argumentTypes":null,"id":70,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"710:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"src":"688:28:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"id":72,"nodeType":"ExpressionStatement","src":"688:28:1"},{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"expression":{"argumentTypes":null,"id":74,"name":"msg","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":182,"src":"729:3:1","typeDescriptions":{"typeIdentifier":"t_magic_message","typeString":"msg"}},"id":75,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"sender","nodeType":"MemberAccess","referencedDeclaration":null,"src":"729:10:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":76,"name":"receiver","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":44,"src":"741:8:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},{"argumentTypes":null,"id":77,"name":"amount","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":46,"src":"751:6:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_address","typeString":"address"},{"typeIdentifier":"t_uint256","typeString":"uint256"}],"id":73,"name":"Transfer","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":31,"src":"720:8:1","typeDescriptions":{"typeIdentifier":"t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$","typeString":"function (address,address,uint256)"}},"id":78,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"720:38:1","typeDescriptions":{"typeIdentifier":"t_tuple$__$","typeString":"tuple()"}},"id":79,"nodeType":"ExpressionStatement","src":"720:38:1"},{"expression":{"argumentTypes":null,"hexValue":"74727565","id":80,"isConstant":false,"isLValue":false,"isPure":true,"kind":"bool","lValueRequested":false,"nodeType":"Literal","src":"769:4:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"value":"true"},"functionReturnParameters":50,"id":81,"nodeType":"Return","src":"762:11:1"}]},"documentation":null,"id":83,"implemented":true,"isConstructor":false,"isDeclaredConst":false,"modifiers":[],"name":"sendCoin","nodeType":"FunctionDefinition","parameters":{"id":47,"nodeType":"ParameterList","parameters":[{"constant":false,"id":44,"name":"receiver","nodeType":"VariableDeclaration","scope":83,"src":"536:16:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":43,"name":"address","nodeType":"ElementaryTypeName","src":"536:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"},{"constant":false,"id":46,"name":"amount","nodeType":"VariableDeclaration","scope":83,"src":"554:11:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":45,"name":"uint","nodeType":"ElementaryTypeName","src":"554:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"535:31:1"},"payable":false,"returnParameters":{"id":50,"nodeType":"ParameterList","parameters":[{"constant":false,"id":49,"name":"sufficient","nodeType":"VariableDeclaration","scope":83,"src":"582:15:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"},"typeName":{"id":48,"name":"bool","nodeType":"ElementaryTypeName","src":"582:4:1","typeDescriptions":{"typeIdentifier":"t_bool","typeString":"bool"}},"value":null,"visibility":"internal"}],"src":"581:17:1"},"scope":112,"src":"518:259:1","stateMutability":"nonpayable","superFunction":null,"visibility":"public"},{"body":{"id":98,"nodeType":"Block","src":"844:53:1","statements":[{"expression":{"argumentTypes":null,"arguments":[{"argumentTypes":null,"arguments":[{"argumentTypes":null,"id":93,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":85,"src":"885:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}}],"expression":{"argumentTypes":[{"typeIdentifier":"t_address","typeString":"address"}],"id":92,"name":"getBalance","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":111,"src":"874:10:1","typeDescriptions":{"typeIdentifier":"t_function_internal_view$_t_address_$returns$_t_uint256_$","typeString":"function (address) view returns (uint256)"}},"id":94,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"874:16:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},{"argumentTypes":null,"hexValue":"32","id":95,"isConstant":false,"isLValue":false,"isPure":true,"kind":"number","lValueRequested":false,"nodeType":"Literal","src":"891:1:1","subdenomination":null,"typeDescriptions":{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"},"value":"2"}],"expression":{"argumentTypes":[{"typeIdentifier":"t_uint256","typeString":"uint256"},{"typeIdentifier":"t_rational_2_by_1","typeString":"int_const 2"}],"expression":{"argumentTypes":null,"id":90,"name":"ConvertLib","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":16,"src":"855:10:1","typeDescriptions":{"typeIdentifier":"t_type$_t_contract$_ConvertLib_$16_$","typeString":"type(library ConvertLib)"}},"id":91,"isConstant":false,"isLValue":false,"isPure":false,"lValueRequested":false,"memberName":"convert","nodeType":"MemberAccess","referencedDeclaration":15,"src":"855:18:1","typeDescriptions":{"typeIdentifier":"t_function_delegatecall_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$","typeString":"function (uint256,uint256) pure returns (uint256)"}},"id":96,"isConstant":false,"isLValue":false,"isPure":false,"kind":"functionCall","lValueRequested":false,"names":[],"nodeType":"FunctionCall","src":"855:38:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":89,"id":97,"nodeType":"Return","src":"848:45:1"}]},"documentation":null,"id":99,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalanceInEth","nodeType":"FunctionDefinition","parameters":{"id":86,"nodeType":"ParameterList","parameters":[{"constant":false,"id":85,"name":"addr","nodeType":"VariableDeclaration","scope":99,"src":"805:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":84,"name":"address","nodeType":"ElementaryTypeName","src":"805:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"804:14:1"},"payable":false,"returnParameters":{"id":89,"nodeType":"ParameterList","parameters":[{"constant":false,"id":88,"name":"","nodeType":"VariableDeclaration","scope":99,"src":"839:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":87,"name":"uint","nodeType":"ElementaryTypeName","src":"839:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"838:6:1"},"scope":112,"src":"780:117:1","stateMutability":"view","superFunction":null,"visibility":"public"},{"body":{"id":110,"nodeType":"Block","src":"960:29:1","statements":[{"expression":{"argumentTypes":null,"baseExpression":{"argumentTypes":null,"id":106,"name":"balances","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":23,"src":"971:8:1","typeDescriptions":{"typeIdentifier":"t_mapping$_t_address_$_t_uint256_$","typeString":"mapping(address => uint256)"}},"id":108,"indexExpression":{"argumentTypes":null,"id":107,"name":"addr","nodeType":"Identifier","overloadedDeclarations":[],"referencedDeclaration":101,"src":"980:4:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"isConstant":false,"isLValue":true,"isPure":false,"lValueRequested":false,"nodeType":"IndexAccess","src":"971:14:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"functionReturnParameters":105,"id":109,"nodeType":"Return","src":"964:21:1"}]},"documentation":null,"id":111,"implemented":true,"isConstructor":false,"isDeclaredConst":true,"modifiers":[],"name":"getBalance","nodeType":"FunctionDefinition","parameters":{"id":102,"nodeType":"ParameterList","parameters":[{"constant":false,"id":101,"name":"addr","nodeType":"VariableDeclaration","scope":111,"src":"920:12:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"},"typeName":{"id":100,"name":"address","nodeType":"ElementaryTypeName","src":"920:7:1","typeDescriptions":{"typeIdentifier":"t_address","typeString":"address"}},"value":null,"visibility":"internal"}],"src":"919:14:1"},"payable":false,"returnParameters":{"id":105,"nodeType":"ParameterList","parameters":[{"constant":false,"id":104,"name":"","nodeType":"VariableDeclaration","scope":111,"src":"954:4:1","stateVariable":false,"storageLocation":"default","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"},"typeName":{"id":103,"name":"uint","nodeType":"ElementaryTypeName","src":"954:4:1","typeDescriptions":{"typeIdentifier":"t_uint256","typeString":"uint256"}},"value":null,"visibility":"internal"}],"src":"953:6:1"},"scope":112,"src":"900:89:1","stateMutability":"view","superFunction":null,"visibility":"public"}],"scope":113,"src":"316:675:1"}],"src":"0:992:1"},"compiler":{"name":"solc","version":"0.4.21+commit.dfe3193c.Emscripten.clang"},"networks":{"1523099626717":{"events":{},"links":{"ConvertLib":"0x3981a7298df8d45b24b3f2a4a0a82525e7d943c2"},"address":"0x80dad9cf65a9d801c20c643568eca8df4a672ab6","transactionHash":"0x8f2ee64818e417604dfb5f4edc16c34a379406ceb20c368af6d98e09f7ac5f9f"},"1523110869626":{"events":{},"links":{"ConvertLib":"0x3981a7298df8d45b24b3f2a4a0a82525e7d943c2"},"address":"0x80dad9cf65a9d801c20c643568eca8df4a672ab6","transactionHash":"0x8f2ee64818e417604dfb5f4edc16c34a379406ceb20c368af6d98e09f7ac5f9f"}},"schemaVersion":"2.0.0","updatedAt":"2018-04-07T14:21:56.231Z"}
-
-/***/ }),
-
 /***/ "./node_modules/moment/locale recursive ^\\.\\/.*$":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33,6 +26,8 @@ var map = {
 	"./be.js": "./node_modules/moment/locale/be.js",
 	"./bg": "./node_modules/moment/locale/bg.js",
 	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
 	"./bn": "./node_modules/moment/locale/bn.js",
 	"./bn.js": "./node_modules/moment/locale/bn.js",
 	"./bo": "./node_modules/moment/locale/bo.js",
@@ -69,6 +64,8 @@ var map = {
 	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
 	"./en-ie": "./node_modules/moment/locale/en-ie.js",
 	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
 	"./en-nz": "./node_modules/moment/locale/en-nz.js",
 	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
 	"./eo": "./node_modules/moment/locale/eo.js",
@@ -76,6 +73,8 @@ var map = {
 	"./es": "./node_modules/moment/locale/es.js",
 	"./es-do": "./node_modules/moment/locale/es-do.js",
 	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
 	"./es.js": "./node_modules/moment/locale/es.js",
 	"./et": "./node_modules/moment/locale/et.js",
 	"./et.js": "./node_modules/moment/locale/et.js",
@@ -101,6 +100,8 @@ var map = {
 	"./gl.js": "./node_modules/moment/locale/gl.js",
 	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
 	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
 	"./he": "./node_modules/moment/locale/he.js",
 	"./he.js": "./node_modules/moment/locale/he.js",
 	"./hi": "./node_modules/moment/locale/hi.js",
@@ -149,12 +150,16 @@ var map = {
 	"./mk.js": "./node_modules/moment/locale/mk.js",
 	"./ml": "./node_modules/moment/locale/ml.js",
 	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
 	"./mr": "./node_modules/moment/locale/mr.js",
 	"./mr.js": "./node_modules/moment/locale/mr.js",
 	"./ms": "./node_modules/moment/locale/ms.js",
 	"./ms-my": "./node_modules/moment/locale/ms-my.js",
 	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
 	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
 	"./my": "./node_modules/moment/locale/my.js",
 	"./my.js": "./node_modules/moment/locale/my.js",
 	"./nb": "./node_modules/moment/locale/nb.js",
@@ -207,6 +212,8 @@ var map = {
 	"./te.js": "./node_modules/moment/locale/te.js",
 	"./tet": "./node_modules/moment/locale/tet.js",
 	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
 	"./th": "./node_modules/moment/locale/th.js",
 	"./th.js": "./node_modules/moment/locale/th.js",
 	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
@@ -221,6 +228,8 @@ var map = {
 	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
 	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
 	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
 	"./uk": "./node_modules/moment/locale/uk.js",
 	"./uk.js": "./node_modules/moment/locale/uk.js",
 	"./ur": "./node_modules/moment/locale/ur.js",
@@ -351,11 +360,11 @@ var AoStatusComponent = /** @class */ (function () {
             numDossier: null,
             chefP: '',
             estimation: null,
-            numRfi: null,
+            numRfi: 0,
             situationRfi: '',
-            numAo: null,
+            numAo: 0,
             situationAo: '',
-            montantDeLaCad: 0,
+            montantDeLaCad: 0
         };
     };
     AoStatusComponent.prototype.loadEmployeeData = function (uid) {
@@ -575,24 +584,24 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__auth_service__ = __webpack_require__("./src/app/auth.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angularfire2_auth__ = __webpack_require__("./node_modules/angularfire2/auth/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__auth_guard_service__ = __webpack_require__("./src/app/auth-guard.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ng2_charts__ = __webpack_require__("./node_modules/ng2-charts/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_ng2_charts__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_components_module__ = __webpack_require__("./src/app/components/components.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__tableau_de_bord_tableau_de_bord_component__ = __webpack_require__("./src/app/tableau-de-bord/tableau-de-bord.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__ = __webpack_require__("./src/app/membre-du-projet/user-profile.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__nomenclature_table_list_component__ = __webpack_require__("./src/app/nomenclature/table-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__documentation_upgrade_component__ = __webpack_require__("./src/app/documentation/upgrade.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__session_session_module__ = __webpack_require__("./src/app/session/session.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ao_status_ao_status_component__ = __webpack_require__("./src/app/ao-status/ao-status.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__employees_employees_component__ = __webpack_require__("./src/app/employees/employees.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__auth_service__ = __webpack_require__("./src/app/auth.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_angularfire2_auth__ = __webpack_require__("./node_modules/angularfire2/auth/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__auth_guard_service__ = __webpack_require__("./src/app/auth-guard.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_material__ = __webpack_require__("./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_ng2_charts__ = __webpack_require__("./node_modules/ng2-charts/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_ng2_charts___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_ng2_charts__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__app_routing__ = __webpack_require__("./src/app/app.routing.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_components_module__ = __webpack_require__("./src/app/components/components.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__tableau_de_bord_tableau_de_bord_component__ = __webpack_require__("./src/app/tableau-de-bord/tableau-de-bord.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__membre_du_projet_user_profile_component__ = __webpack_require__("./src/app/membre-du-projet/user-profile.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__nomenclature_table_list_component__ = __webpack_require__("./src/app/nomenclature/table-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__documentation_upgrade_component__ = __webpack_require__("./src/app/documentation/upgrade.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__session_session_module__ = __webpack_require__("./src/app/session/session.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ao_status_ao_status_component__ = __webpack_require__("./src/app/ao-status/ao-status.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__employees_employees_component__ = __webpack_require__("./src/app/employees/employees.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__situation_situation_component__ = __webpack_require__("./src/app/situation/situation.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29_ag_grid_angular_main__ = __webpack_require__("./node_modules/ag-grid-angular/main.js");
@@ -621,7 +630,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-//Dashboard
 
 
 
@@ -645,49 +653,48 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             exports: [
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["b" /* MatAutocompleteModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["c" /* MatButtonModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["d" /* MatButtonToggleModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["e" /* MatCardModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["f" /* MatCheckboxModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["g" /* MatChipsModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["F" /* MatStepperModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["h" /* MatDatepickerModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["j" /* MatDialogModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["l" /* MatDividerModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["m" /* MatExpansionModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["n" /* MatGridListModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["o" /* MatIconModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["p" /* MatInputModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["q" /* MatListModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["r" /* MatMenuModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["s" /* MatNativeDateModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["t" /* MatPaginatorModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["u" /* MatProgressBarModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["v" /* MatProgressSpinnerModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["w" /* MatRadioModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["x" /* MatRippleModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["y" /* MatSelectModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["z" /* MatSidenavModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["B" /* MatSliderModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["A" /* MatSlideToggleModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["C" /* MatSnackBarModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["E" /* MatSortModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["G" /* MatTableModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["H" /* MatTabsModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["I" /* MatToolbarModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["J" /* MatTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["b" /* MatAutocompleteModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["c" /* MatButtonModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["d" /* MatButtonToggleModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["e" /* MatCardModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["f" /* MatCheckboxModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["g" /* MatChipsModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["F" /* MatStepperModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["h" /* MatDatepickerModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["j" /* MatDialogModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["l" /* MatDividerModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["m" /* MatExpansionModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["n" /* MatGridListModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["o" /* MatIconModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["p" /* MatInputModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["q" /* MatListModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["r" /* MatMenuModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["s" /* MatNativeDateModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["u" /* MatPaginatorModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["v" /* MatProgressBarModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["w" /* MatProgressSpinnerModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["x" /* MatRadioModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["y" /* MatRippleModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["z" /* MatSelectModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["A" /* MatSidenavModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["C" /* MatSliderModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["B" /* MatSlideToggleModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["D" /* MatSnackBarModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["E" /* MatSortModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["H" /* MatTableModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["I" /* MatTabsModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["J" /* MatToolbarModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["K" /* MatTooltipModule */],
                 __WEBPACK_IMPORTED_MODULE_27__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */]
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
-                //Dashboard
-                __WEBPACK_IMPORTED_MODULE_19__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__["b" /* UserProfileComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__nomenclature_table_list_component__["a" /* TableListComponent */],
-                __WEBPACK_IMPORTED_MODULE_22__documentation_upgrade_component__["a" /* UpgradeComponent */],
-                __WEBPACK_IMPORTED_MODULE_24__ao_status_ao_status_component__["a" /* AoStatusComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__membre_du_projet_user_profile_component__["b" /* UserProfileComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__nomenclature_table_list_component__["a" /* TableListComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__documentation_upgrade_component__["a" /* UpgradeComponent */],
+                __WEBPACK_IMPORTED_MODULE_25__ao_status_ao_status_component__["a" /* AoStatusComponent */],
                 __WEBPACK_IMPORTED_MODULE_28__situation_situation_component__["a" /* SituationComponent */],
                 __WEBPACK_IMPORTED_MODULE_30__chart_test_chart_test_component__["a" /* ChartTestComponent */],
                 __WEBPACK_IMPORTED_MODULE_31_jqwidgets_scripts_jqwidgets_ts_angular_jqxchart__["a" /* jqxChartComponent */]
@@ -697,30 +704,31 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormsModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_5__meta_meta_module__["a" /* MetaModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["e" /* MatCardModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["y" /* MatSelectModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["c" /* MatButtonModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["J" /* MatTooltipModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["j" /* MatDialogModule */],
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["p" /* MatInputModule */],
-                __WEBPACK_IMPORTED_MODULE_18__components_components_module__["a" /* ComponentsModule */],
-                __WEBPACK_IMPORTED_MODULE_23__session_session_module__["a" /* SessionModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["e" /* MatCardModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["z" /* MatSelectModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["c" /* MatButtonModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["K" /* MatTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["j" /* MatDialogModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["p" /* MatInputModule */],
+                __WEBPACK_IMPORTED_MODULE_19__components_components_module__["a" /* ComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_24__session_session_module__["a" /* SessionModule */],
                 __WEBPACK_IMPORTED_MODULE_6_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_9__environments_environment__["a" /* environment */].firebaseConfig, 'angular-auth-firebase'),
                 __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__["b" /* AngularFireDatabaseModule */],
                 __WEBPACK_IMPORTED_MODULE_8_angularfire2_firestore__["b" /* AngularFirestoreModule */],
-                __WEBPACK_IMPORTED_MODULE_16__angular_router__["e" /* RouterModule */],
-                __WEBPACK_IMPORTED_MODULE_17__app_routing__["a" /* AppRoutingModule */],
-                __WEBPACK_IMPORTED_MODULE_26_ngx_toastr__["a" /* ToastrModule */].forRoot(),
-                __WEBPACK_IMPORTED_MODULE_25__employees_employees_component__["a" /* EmployeesModule */],
-                __WEBPACK_IMPORTED_MODULE_11_angularfire2_auth__["b" /* AngularFireAuthModule */],
-                __WEBPACK_IMPORTED_MODULE_12__angular_common__["b" /* CommonModule */],
-                __WEBPACK_IMPORTED_MODULE_15_ng2_charts__["ChartsModule"],
+                __WEBPACK_IMPORTED_MODULE_17__angular_router__["e" /* RouterModule */],
+                __WEBPACK_IMPORTED_MODULE_18__app_routing__["a" /* AppRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_10_ngx_toastr__["a" /* ToastrModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_26__employees_employees_component__["a" /* EmployeesModule */],
+                __WEBPACK_IMPORTED_MODULE_12_angularfire2_auth__["b" /* AngularFireAuthModule */],
+                __WEBPACK_IMPORTED_MODULE_13__angular_common__["b" /* CommonModule */],
+                __WEBPACK_IMPORTED_MODULE_16_ng2_charts__["ChartsModule"],
                 __WEBPACK_IMPORTED_MODULE_29_ag_grid_angular_main__["AgGridModule"].withComponents([]),
-                __WEBPACK_IMPORTED_MODULE_14__angular_material__["G" /* MatTableModule */]
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["H" /* MatTableModule */],
+                __WEBPACK_IMPORTED_MODULE_15__angular_material__["u" /* MatPaginatorModule */]
             ],
-            providers: [__WEBPACK_IMPORTED_MODULE_10__auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_13__auth_guard_service__["a" /* AuthGuard */]],
+            providers: [__WEBPACK_IMPORTED_MODULE_11__auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_14__auth_guard_service__["a" /* AuthGuard */]],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]],
-            entryComponents: [__WEBPACK_IMPORTED_MODULE_20__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */]]
+            entryComponents: [__WEBPACK_IMPORTED_MODULE_21__membre_du_projet_user_profile_component__["a" /* NewUserDialogComponent */]]
         })
     ], AppModule);
     return AppModule;
@@ -746,8 +754,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__situation_situation_component__ = __webpack_require__("./src/app/situation/situation.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__session_sign_up_sign_up_component__ = __webpack_require__("./src/app/session/sign-up/sign-up.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__session_login_login_component__ = __webpack_require__("./src/app/session/login/login.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__auth_guard_service__ = __webpack_require__("./src/app/auth-guard.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__chart_test_chart_test_component__ = __webpack_require__("./src/app/chart-test/chart-test.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__chart_test_chart_test_component__ = __webpack_require__("./src/app/chart-test/chart-test.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -766,14 +773,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
 var routes = [
-    { path: 'tableau-de-bord', component: __WEBPACK_IMPORTED_MODULE_5__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_11__auth_guard_service__["a" /* AuthGuard */]] },
+    { path: 'tableau-de-bord', component: __WEBPACK_IMPORTED_MODULE_5__tableau_de_bord_tableau_de_bord_component__["a" /* DashboardComponent */] },
     { path: 'membre-du-projet', component: __WEBPACK_IMPORTED_MODULE_6__membre_du_projet_user_profile_component__["b" /* UserProfileComponent */] },
     { path: 'formulaire', component: __WEBPACK_IMPORTED_MODULE_4__ao_status_ao_status_component__["a" /* AoStatusComponent */] },
     { path: 'situation', component: __WEBPACK_IMPORTED_MODULE_8__situation_situation_component__["a" /* SituationComponent */] },
     { path: 'documentation', component: __WEBPACK_IMPORTED_MODULE_7__documentation_upgrade_component__["a" /* UpgradeComponent */] },
-    { path: 'app-chart-test', component: __WEBPACK_IMPORTED_MODULE_12__chart_test_chart_test_component__["a" /* ChartTestComponent */] },
+    { path: 'app-chart-test', component: __WEBPACK_IMPORTED_MODULE_11__chart_test_chart_test_component__["a" /* ChartTestComponent */] },
     //{ path: 'meta',        component: MetaSenderComponent },
     { path: 'signup', component: __WEBPACK_IMPORTED_MODULE_9__session_sign_up_sign_up_component__["a" /* SignUpComponent */], data: { sidebar: false } },
     { path: 'login', component: __WEBPACK_IMPORTED_MODULE_10__session_login_login_component__["a" /* LoginComponent */], data: { sidebar: false } },
@@ -1317,7 +1323,7 @@ module.exports = ""
 /***/ "./src/app/components/sidebar/sidebar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"logo\"  >\n    <a class=\"simple-text\">\n        <div class=\"logo-img\" >\n            <img src=\"/assets/img/angular2-logo-red.png\"/>\n        </div>\n        Capex\n    </a>\n</div>\n<div class=\"sidebar-wrapper\" >\n    <form class=\"navbar-form navbar-right\" role=\"search\" *ngIf=\"isMobileMenu()\" >\n        <div class=\"form-group form-black is-empty\" >\n            <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n            <span class=\"material-input\"></span>\n        </div>\n        <button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i><div class=\"ripple-container\"></div>\n        </button>\n    </form>\n\n    <ul class=\"nav nav-mobile-menu\" *ngIf=\"isMobileMenu()\">\n        <li>\n            <a  class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                <i class=\"material-icons\" >dashboard</i>\n                <p class=\"hidden-lg hidden-md\">Dashboard</p>\n            </a>\n        </li>\n        <li class=\"dropdown\">\n            <a  class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                <i class=\"material-icons\">notifications</i>\n                <span class=\"notification\">5</span>\n                <p class=\"hidden-lg hidden-md\">Notifications</p>\n            </a>\n            <ul class=\"dropdown-menu\">\n                <li><a href=\"#\">Mike John responded to your email</a></li>\n                <li><a href=\"#\">You have 5 new tasks</a></li>\n                <li><a href=\"#\">You're now friend with Andrew</a></li>\n                <li><a href=\"#\">Another Notification</a></li>\n                <li><a href=\"#\">Another One</a></li>\n            </ul>\n        </li>\n        <li>\n            <a href=\"#pablo\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n               <i class=\"material-icons\">person</i>\n               <p class=\"hidden-lg hidden-md\">Profile</p>\n            </a>\n        </li>\n    </ul>\n\n    <div class=\"nav-container\">\n        <ul class=\"nav\">\n            <li routerLinkActive=\"active\" *ngFor=\"let menuItem of menuItems\" class=\"{{menuItem.class}}\">\n                <a *ngIf=\"!menuItem.admin || (menuItem.admin && isAdmin())\" [routerLink]=\"[menuItem.path]\">\n                    <i class=\"material-icons\">{{menuItem.icon}}</i>\n                    <p>{{menuItem.title}}</p>\n                </a>\n            </li>\n        </ul>\n    </div>\n</div>\n"
+module.exports = "<div class=\"logo\"  >\n    <a class=\"simple-text\">\n        <div class=\"logo-img\" >\n            <img src=\"/assets/img/angular2-logo-red.png\"/>\n        </div>\n        Capex\n    </a>\n</div>\n<div class=\"sidebar-wrapper\" >\n    <form class=\"navbar-form navbar-right\" role=\"search\" *ngIf=\"isMobileMenu()\" >\n        <div class=\"form-group form-black is-empty\" >\n            <input type=\"text\" class=\"form-control\" placeholder=\"Search\">\n            <span class=\"material-input\"></span>\n        </div>\n        <button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n            <i class=\"material-icons\">search</i><div class=\"ripple-container\"></div>\n        </button>\n    </form>\n\n    <ul class=\"nav nav-mobile-menu\" *ngIf=\"isMobileMenu()\">\n        <li>\n            <a  class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n                <i class=\"material-icons\" >dashboard</i>\n                <p class=\"hidden-lg hidden-md\">Dashboard</p>\n            </a>\n        </li>\n        <li>\n            <a href=\"#pablo\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">\n               <i class=\"material-icons\">person</i>\n               <p class=\"hidden-lg hidden-md\">Profile</p>\n            </a>\n        </li>\n    </ul>\n\n    <div class=\"nav-container\">\n        <ul class=\"nav\">\n            <li routerLinkActive=\"active\" *ngFor=\"let menuItem of menuItems\" class=\"{{menuItem.class}}\">\n                <a *ngIf=\"!menuItem.admin || (menuItem.admin && isAdmin())\" [routerLink]=\"[menuItem.path]\">\n                    <i class=\"material-icons\">{{menuItem.icon}}</i>\n                    <p>{{menuItem.title}}</p>\n                </a>\n            </li>\n        </ul>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -1751,7 +1757,18 @@ var EmployeesModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Employee; });
 var Employee = /** @class */ (function () {
-    function Employee() {
+    function Employee($key, numDa, designation, numDossier, chefP, estimation, numRfi, situationRfi, numAo, situationAo, montantDeLaCad) {
+        this.$key = $key;
+        this.numDa = numDa;
+        this.designation = designation;
+        this.numDossier = numDossier;
+        this.chefP = chefP;
+        this.estimation = estimation;
+        this.numRfi = numRfi;
+        this.situationRfi = situationRfi;
+        this.numAo = numAo;
+        this.situationAo = situationAo;
+        this.montantDeLaCad = montantDeLaCad;
     }
     return Employee;
 }());
@@ -1783,7 +1800,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var EmployeeService = /** @class */ (function () {
     function EmployeeService(firebase) {
         this.firebase = firebase;
-        this.selectedEmployee = new __WEBPACK_IMPORTED_MODULE_2__employee_model__["a" /* Employee */]();
+        this.selectedEmployee = new __WEBPACK_IMPORTED_MODULE_2__employee_model__["a" /* Employee */](null, null, '', 0, '', 0, 0, '', 0, '', 0);
     }
     EmployeeService.prototype.getData = function () {
         this.employeeList = this.firebase.list('employees');
@@ -1974,8 +1991,6 @@ module.exports = "<!--<div class=\"main-content\">\n  <div class=\"container-flu
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MetaSenderComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_web3_service__ = __webpack_require__("./src/app/util/web3.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__build_contracts_MetaCoin_json__ = __webpack_require__("./build/contracts/MetaCoin.json");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__build_contracts_MetaCoin_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__build_contracts_MetaCoin_json__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2022,7 +2037,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 
 
-
 var MetaSenderComponent = /** @class */ (function () {
     function MetaSenderComponent(web3Service) {
         this.web3Service = web3Service;
@@ -2036,14 +2050,6 @@ var MetaSenderComponent = /** @class */ (function () {
         console.log('Constructor: ' + web3Service);
     }
     MetaSenderComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        console.log('OnInit: ' + this.web3Service);
-        console.log(this);
-        this.watchAccount();
-        this.web3Service.artifactsToContract(__WEBPACK_IMPORTED_MODULE_2__build_contracts_MetaCoin_json___default.a)
-            .then(function (MetaCoinAbstraction) {
-            _this.MetaCoin = MetaCoinAbstraction;
-        });
     };
     MetaSenderComponent.prototype.watchAccount = function () {
         var _this = this;
@@ -2430,21 +2436,21 @@ var SessionModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["q" /* MatListModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["r" /* MatMenuModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["s" /* MatNativeDateModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["t" /* MatPaginatorModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["u" /* MatProgressBarModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["v" /* MatProgressSpinnerModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["w" /* MatRadioModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["x" /* MatRippleModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["y" /* MatSelectModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["z" /* MatSidenavModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["B" /* MatSliderModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["A" /* MatSlideToggleModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["C" /* MatSnackBarModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["u" /* MatPaginatorModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["v" /* MatProgressBarModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["w" /* MatProgressSpinnerModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["x" /* MatRadioModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["y" /* MatRippleModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["z" /* MatSelectModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["A" /* MatSidenavModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["C" /* MatSliderModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["B" /* MatSlideToggleModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["D" /* MatSnackBarModule */],
                 __WEBPACK_IMPORTED_MODULE_7__angular_material__["E" /* MatSortModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["G" /* MatTableModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["H" /* MatTabsModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["I" /* MatToolbarModule */],
-                __WEBPACK_IMPORTED_MODULE_7__angular_material__["J" /* MatTooltipModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["H" /* MatTableModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["I" /* MatTabsModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["J" /* MatToolbarModule */],
+                __WEBPACK_IMPORTED_MODULE_7__angular_material__["K" /* MatTooltipModule */],
             ],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__login_login_component__["a" /* LoginComponent */],
@@ -2540,7 +2546,7 @@ module.exports = ".card-header{\n  position: relative;\n}\n.card-header .user-se
 /***/ "./src/app/situation/situation.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"card card-plain\">\n          <div class=\"card-header\" data-background-color=\"orange\">\n              <h4 class=\"title text-center\" >données saisi </h4>\n            <p class=\"category  font-weight-bold \">\n               </p>\n            <div class=\"user-selector\" *ngIf=\"isAdmin()\">\n              <mat-form-field>\n                <mat-select placeholder=\"choisissez un acheteur\" (selectionChange)=\"onUserSelected($event)\">\n                  <mat-option *ngFor=\"let user of users\" [value]=\"user\">\n                    {{ user.email }}\n                  </mat-option>\n                </mat-select>\n              </mat-form-field>\n            </div>\n          </div>\n          <mat-card>\n            <div class=\"card-content table-responsive\">\n              <table class=\"table table-hover\">\n                <thead>\n                  <tr >\n                    <th class=\"text-primary\"><strong>numDa</strong></th>\n                    <th class=\"text-primary\"><strong>designation</strong></th>\n                    <th class=\"text-primary\"><strong>numDossier</strong></th>\n                    <th class=\"text-primary\"><strong>chefP</strong></th>\n                    <th class=\"text-primary\"><strong>estimation</strong></th>\n                    <th class=\"text-primary\"><strong>numRfi</strong></th>\n                    <th class=\"text-primary\"><strong>situationRfi</strong></th>\n                    <th class=\"text-primary\"><strong>numAo</strong></th>\n                    <th class=\"text-primary\"><strong>situationAo</strong></th>\n                    <th class=\"text-primary\"><strong>montantDeLaCad</strong></th>\n                  </tr>\n                </thead>\n                <tbody>\n                  <tr *ngFor=\"let employee of employeeList\">\n                    <td>{{employee.numDa}}</td>\n                    <td>{{employee.designation}}</td>\n                    <td>{{employee.numDossier}}</td>\n                    <td>{{employee.chefP}}</td>\n                    <td>{{employee.estimation}}</td>\n                    <td>{{employee.numRfi}}</td>\n                    <td>{{employee.situationRfi}}</td>\n                    <td>{{employee.numAo}}</td>\n                    <td>{{employee.situationAo}}</td>\n                    <td>{{employee.montantDeLaCad}}</td>\n                    <td>\n                      <a class=\"btn\" (click)=\"onDelete(employee.$key)\">\n                        <i class=\"fa fa-trash-o\"></i>\n                      </a>\n                    </td>\n                  </tr>\n                </tbody>\n              </table>\n            </div>\n        \n      </mat-card>\n    </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"card card-plain\">\n          <div class=\"card-header\" data-background-color=\"orange\">\n              <h4 class=\"title text-center\" >données saisi </h4>\n            <p class=\"category  font-weight-bold \">\n               </p>\n            <div class=\"user-selector\" *ngIf=\"isAdmin()\">\n              <mat-form-field>\n                <mat-select placeholder=\"choisissez un acheteur\" (selectionChange)=\"onUserSelected($event)\">\n                  <mat-option *ngFor=\"let user of users\" [value]=\"user\">\n                    {{ user.email }}\n                  </mat-option>\n                </mat-select>\n              </mat-form-field>\n            </div>\n          </div>\n          <mat-card>\n            <div class=\"card-content table-responsive\">\n              <mat-form-field>\n                <input matInput (keyup)=\"applyFilter($event.target.value)\" placeholder=\"Filter\">\n              </mat-form-field>\n\n              <mat-table [dataSource]=\"dataSource\">\n                <ng-container matColumnDef=\"numDa\">\n                  <mat-header-cell *matHeaderCellDef> numDa </mat-header-cell>\n                  <mat-cell  *matCellDef=\"let element\"> {{element.numDa}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"designation\">\n                  <mat-header-cell *matHeaderCellDef> designation </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.designation}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"numDossier\">\n                  <mat-header-cell *matHeaderCellDef> numDossier </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.numDossier}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"numRfi\">\n                  <mat-header-cell *matHeaderCellDef> numRfi </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.numRfi}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"situationRfi\">\n                  <mat-header-cell *matHeaderCellDef> situationRfi </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.situationRfi}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"numAo\">\n                  <mat-header-cell *matHeaderCellDef> numAo </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.numAo}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"situationAo\">\n                  <mat-header-cell *matHeaderCellDef> situationAo </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.situationAo}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"montantDeLaCad\">\n                  <mat-header-cell *matHeaderCellDef> montantDeLaCad </mat-header-cell>\n                  <mat-cell *matCellDef=\"let element\"> {{element.montantDeLaCad}} </mat-cell>\n                </ng-container>\n\n                <ng-container matColumnDef=\"delete\">\n                  <mat-header-cell *matHeaderCellDef></mat-header-cell>\n                  <mat-cell mat-cell *matCellDef=\"let element\">\n                      <a class=\"btn\" (click)=\"onDelete(element.$key)\">\n                       <i class=\"fa fa-trash-o\"></i>\n                      </a>\n                  </mat-cell>\n                </ng-container>\n\n                <mat-header-row  *matHeaderRowDef=\"displayedColumns\"></mat-header-row>\n                <mat-row *matRowDef=\"let row; columns: displayedColumns;\"></mat-row>\n              </mat-table>\n              <mat-paginator [pageSizeOptions]=\"[5, 10, 20]\" showFirstLastButtons></mat-paginator>\n\n            </div>\n        \n      </mat-card>\n    </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -2571,43 +2577,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var SituationComponent = /** @class */ (function () {
-    function SituationComponent(employeeService, auth, db, tostr, firebase) {
+    function SituationComponent(employeeService, auth, db, tostr) {
         this.employeeService = employeeService;
         this.auth = auth;
         this.db = db;
         this.tostr = tostr;
-        this.firebase = firebase;
-        this.key = 'numDa'; //set default
-        this.reverse = false;
-        this.columnDefs = [
-            {
-                headerName: "numDa",
-                field: "numDa",
-                width: 150,
-                sortingOrder: ["asc", "desc"]
-            },
-            {
-                headerName: "designation",
-                field: "designation",
-                width: 150
-            }
-        ];
+        this.displayedColumns = ['numDa', 'designation', 'numDossier', 'numRfi', 'situationRfi', 'numAo', 'situationAo', 'montantDeLaCad', 'delete'];
     }
-    SituationComponent.prototype.sort = function (key) {
-        this.key = key;
-        this.reverse = !this.reverse;
-    };
-    SituationComponent.prototype.onGridReady = function (params) {
-        //this.loadEmployeeData(data.value['$key']);
-        this.gridApi = params.api;
-        this.gridColumnApi = params.columnApi;
-        var dataValue = [{ "numDa": "cc", "designation": 22 }];
-        params.api.setRowData(dataValue);
-    };
     SituationComponent.prototype.ngOnInit = function () {
+        this.dataSource = new __WEBPACK_IMPORTED_MODULE_4__angular_material__["G" /* MatTableDataSource */]();
+        this.dataSource.paginator = this.paginator;
         this.loadUsers();
         this.loadEmployeeData();
-        this.dataSource.sort = this.sort;
     };
     SituationComponent.prototype.loadEmployeeData = function (uid) {
         var _this = this;
@@ -2620,9 +2601,11 @@ var SituationComponent = /** @class */ (function () {
                 var uuid = uid ? uid : _this.auth.loggedInUser.uid;
                 if (y.creatorUid === uuid) {
                     y['$key'] = element.key;
+                    console.log(y);
                     _this.employeeList.push(y);
                 }
             });
+            _this.dataSource.data = _this.employeeList;
         });
     };
     SituationComponent.prototype.loadUsers = function () {
@@ -2636,6 +2619,9 @@ var SituationComponent = /** @class */ (function () {
                 _this.users.push(y);
             });
         });
+    };
+    SituationComponent.prototype.applyFilter = function (filterValue) {
+        this.dataSource.filter = filterValue.trim().toLowerCase();
     };
     SituationComponent.prototype.onUserSelected = function (data) {
         var uid = data.value['$key'];
@@ -2653,13 +2639,13 @@ var SituationComponent = /** @class */ (function () {
     SituationComponent.prototype.onDelete = function (key) {
         if (confirm('Are you sure to delete this record ?') == true) {
             this.employeeService.deleteEmployee(key);
-            this.tostr.warning("Deleted Successfully", "Employee register");
+            this.tostr.warning('Deleted Successfully', 'Employee register');
         }
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_4__angular_material__["D" /* MatSort */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__angular_material__["D" /* MatSort */])
-    ], SituationComponent.prototype, "Sort", void 0);
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_4__angular_material__["t" /* MatPaginator */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__angular_material__["t" /* MatPaginator */])
+    ], SituationComponent.prototype, "paginator", void 0);
     SituationComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-situation',
@@ -2669,8 +2655,7 @@ var SituationComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__employees_shared_employee_service__["a" /* EmployeeService */],
             __WEBPACK_IMPORTED_MODULE_5__auth_service__["a" /* AuthService */],
             __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */],
-            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */],
-            __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */]])
+            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */]])
     ], SituationComponent);
     return SituationComponent;
 }());
@@ -2689,7 +2674,7 @@ module.exports = ""
 /***/ "./src/app/tableau-de-bord/tableau-de-bord.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-3 col-md-6 col-sm-6\">\n                <div class=\"card card-stats\">\n                    <div class=\"card-header\" data-background-color=\"orange\">\n                        <i class=\"material-icons\">AO</i>\n                    </div>\n                    <div class=\"card-content\">\n                        <p class=\"category\">Statut</p>\n                        <h3 class=\"title\">49\n                            <small>unité</small>\n                        </h3>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons text-danger\">warning</i>\n                            <a href=\"#pablo\">49/100 sont cloturer</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-lg-3 col-md-6 col-sm-6\">\n                <div class=\"card card-stats\">\n                    <div class=\"card-header\" data-background-color=\"red\">\n                        <i class=\"material-icons\">RFI</i>\n                    </div>\n                    <div class=\"card-content\">\n                        <p class=\"category\">Statut</p>\n                        <h3 class=\"title\">75\n                            <small>unité</small>\n                        </h3>\n                    </div>\n                    <div class=\"card-footer\">\n                        <div class=\"stats\">\n                            <i class=\"material-icons text-danger\">warning</i>\n                            <a href=\"#pablo\">75/100 sont cloturer</a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n            <jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[0].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[0].dataSource\" [showBorderLine]=\"true\" \n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n<jqxChart style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[1].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"charts[1].dataSource\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n            <div class=\"row\">\n                <div class=\"col-lg-6 col-md-12\">\n                    <div class=\"card card-nav-tabs\">\n                        <div class=\"card-header\" data-background-color=\"purple\">\n                            <div class=\"nav-tabs-navigation\">\n                                <div class=\"nav-tabs-wrapper\">\n                                    <span class=\"nav-tabs-title\">Tasks:</span>\n                                    <ul class=\"nav nav-tabs\" data-tabs=\"tabs\">\n                                        <li class=\"active\">\n                                            <a href=\"#profile\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">bug_report</i>\n                                                Bugs\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                        <li class=\"\">\n                                            <a href=\"#messages\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">code</i>\n                                                Ajustement\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                        <li class=\"\">\n                                            <a href=\"#settings\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">cloud</i>\n                                                Note\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                    </ul>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"card-content\">\n                            <div class=\"tab-content\">\n                                <div class=\"tab-pane active\" id=\"profile\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>Avertir fournisseur 1?\"</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>Notifier Fournisseur 2 sur l'equipement2?</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                                <div class=\"tab-pane\" id=\"messages\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                                <div class=\"tab-pane\" id=\"settings\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td></td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-6 col-md-12\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" data-background-color=\"orange\">\n                            <h4 class=\"title\">Situation</h4>\n                            <p class=\"category\"></p>\n                        </div>\n                        <div class=\"card-content table-responsive\">\n                            <table class=\"table table-hover\">\n                                <thead class=\"text-warning\">\n                                    <tr>\n                                        <th>numDa</th>\n                                        <th>numRfi</th>\n                                        <th>situationRfi</th>\n                                        <th>numAo</th>\n                                        <th>situationAo</th>\n                                        <th>montantDeLaCad</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr *ngFor=\"let employee of employeeList\">\n                                        <td>{{employee.numDa}}</td>\n                                        <td>{{employee.numRfi}}</td>\n                                        <td>{{employee.situationRfi}}</td>\n                                        <td>{{employee.numAo}}</td>\n                                        <td>{{employee.situationAo}}</td>\n                                        <td>{{employee.montantDeLaCad}}</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n "
+module.exports = "<div class=\"main-content\">\n\n    <div class=\"container-fluid\">\n        <div class=\"row\"> \n\n\n            <jqxChart *ngIf=\"dataLoaded\" style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[0].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"dataAO\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n<jqxChart *ngIf=\"dataLoaded\" style=\"float: left\"\n    [width]=\"400\" [height]=\"250\"\n    [title]=\"''\"\n    [description]=\"charts[1].title\"\n    [showLegend]=\"true\" [enableAnimations]=\"false\" [padding]=\"padding\"\n    [titlePadding]=\"titlePadding\" [source]=\"dataRFI\" [showBorderLine]=\"true\"\n    [seriesGroups]=\"seriesGroups\" [colorScheme]=\"'scheme03'\">\n</jqxChart>\n\n            <div class=\"row\">\n                <div class=\"col-lg-6 col-md-12\">\n                    <div class=\"card card-nav-tabs\">\n                        <div class=\"card-header\" data-background-color=\"purple\">\n                            <div class=\"nav-tabs-navigation\">\n                                <div class=\"nav-tabs-wrapper\">\n                                    <span class=\"nav-tabs-title\">Tâches:</span>\n                                    <ul class=\"nav nav-tabs\" data-tabs=\"tabs\">\n                                        <li class=\"active\">\n                                            <a href=\"#profile\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">bug_report</i>\n                                                Bugs\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                        <li class=\"\">\n                                            <a href=\"#messages\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\">code</i>\n                                                Ajustement\n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                        <li class=\"\">\n                                            <a href=\"#settings\" data-toggle=\"tab\">\n                                                <i class=\"material-icons\"></i>\n                                                \n                                                <div class=\"ripple-container\"></div>\n                                            </a>\n                                        </li>\n                                    </ul>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div class=\"card-content\">\n                            <div class=\"tab-content\">\n                                <div class=\"tab-pane active\" id=\"profile\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>Montant invalide</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>marché clôturer</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>détail manquant</td>\n                                              \n                                                \n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>avenant requis</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                                <div class=\"tab-pane\" id=\"messages\">\n                                    <table class=\"table\">\n                                        <tbody>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\" checked>\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>\n                                                    Notifier\n                                                </td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                            <tr>\n                                                <td>\n                                                    <div class=\"checkbox\">\n                                                        <label>\n                                                            <input type=\"checkbox\" name=\"optionsCheckboxes\">\n                                                        </label>\n                                                    </div>\n                                                </td>\n                                                <td>planifier une réunion</td>\n                                                <td class=\"td-actions text-right\">\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Edit Task\" class=\"btn btn-primary btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">edit</i>\n                                                    </button>\n                                                    <button type=\"button\" rel=\"tooltip\" title=\"Remove\" class=\"btn btn-danger btn-simple btn-xs\">\n                                                        <i class=\"material-icons\">close</i>\n                                                    </button>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </div>\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-6 col-md-12\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" data-background-color=\"orange\">\n                            <h4 class=\"title\">Situation</h4>\n                            <p class=\"category\"></p>\n                        </div>\n                        <div class=\"card-content table-responsive\">\n                            <table class=\"table table-hover\">\n                                <thead class=\"text-warning\">\n                                    <tr>\n                                        <th>numDa</th>\n                                        <th>numRfi</th>\n                                        <th>situationRfi</th>\n                                        <th>numAo</th>\n                                        <th>situationAo</th>\n                                        <th>montantDeLaCad</th>\n                                    </tr>\n                                </thead>\n                                <tbody>\n                                    <tr *ngFor=\"let employee of employeeList\">\n                                        <td>{{employee.numDa}}</td>\n                                        <td>{{employee.numRfi}}</td>\n                                        <td>{{employee.situationRfi}}</td>\n                                        <td>{{employee.numAo}}</td>\n                                        <td>{{employee.situationAo}}</td>\n                                        <td>{{employee.montantDeLaCad}}</td>\n                                    </tr>\n                                </tbody>\n                            </table>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n "
 
 /***/ }),
 
@@ -2723,6 +2708,9 @@ var DashboardComponent = /** @class */ (function () {
         this.employeeService = employeeService;
         this.auth = auth;
         this.db = db;
+        this.dataRFI = [];
+        this.dataAO = [];
+        this.dataLoaded = false;
         //Chart
         this.view = [500, 300];
         this.showLegend = true;
@@ -2761,8 +2749,8 @@ var DashboardComponent = /** @class */ (function () {
             { Browser: 'Soldé', Share: 6.8 }
         ];
         this.charts = [
-            { title: 'AO', label: 'Ao', dataSource: this.dataAOCounter },
-            { title: 'RFI', label: 'Rfi', dataSource: this.dataRFICounter }
+            { title: 'AO', label: 'Ao', dataSource: this.dataAO },
+            { title: 'RFI', label: 'Rfi', dataSource: this.dataRFI }
         ];
         this.padding = { left: 5, top: 5, right: 5, bottom: 5 };
         this.titlePadding = { left: 0, top: 0, right: 0, bottom: 10 };
@@ -2932,6 +2920,7 @@ var DashboardComponent = /** @class */ (function () {
                     _this.employeeList.push(y);
                 }
             });
+            _this.convertToChartData();
         });
     };
     DashboardComponent.prototype.loadUsers = function () {
@@ -2956,7 +2945,25 @@ var DashboardComponent = /** @class */ (function () {
         }
         return ('isAdmin' in this.auth.loggedInUser && this.auth.loggedInUser['isAdmin']);
     };
-    DashboardComponent.prototype.loadsumAo = function () {
+    DashboardComponent.prototype.convertToChartData = function () {
+        var _this = this;
+        var sumAO = 0;
+        var sumRFI = 0;
+        this.employeeList.forEach(function (employee) {
+            sumAO = +sumAO + +employee.numAo;
+            sumRFI = +sumRFI + +employee.numRfi;
+        });
+        this.employeeList.forEach(function (employee) {
+            var RFIEntry = {
+                Browser: employee.situationRfi, Share: parseFloat((employee.numRfi * 100 / sumRFI).toFixed(2))
+            };
+            var AOEntry = {
+                Browser: employee.situationAo, Share: parseFloat((employee.numAo * 100 / sumAO).toFixed(2))
+            };
+            _this.dataRFI.push(RFIEntry);
+            _this.dataAO.push(AOEntry);
+        });
+        this.dataLoaded = true;
     };
     // events
     DashboardComponent.prototype.chartClicked = function (e) {
@@ -2989,14 +2996,12 @@ var DashboardComponent = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UtilModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__web3_service__ = __webpack_require__("./src/app/util/web3.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 var UtilModule = /** @class */ (function () {
@@ -3007,9 +3012,7 @@ var UtilModule = /** @class */ (function () {
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["b" /* CommonModule */]
             ],
-            providers: [
-                __WEBPACK_IMPORTED_MODULE_2__web3_service__["a" /* Web3Service */]
-            ],
+            providers: [],
             declarations: []
         })
     ], UtilModule);
@@ -3026,11 +3029,7 @@ var UtilModule = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Web3Service; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_truffle_contract__ = __webpack_require__("./node_modules/truffle-contract/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_truffle_contract___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_truffle_contract__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__ = __webpack_require__("./node_modules/rxjs/_esm5/Rx.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_web3__ = __webpack_require__("./node_modules/web3/src/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_web3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_web3__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_Rx__ = __webpack_require__("./node_modules/rxjs/_esm5/Rx.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3077,13 +3076,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 
 
-
-
 var Web3Service = /** @class */ (function () {
     function Web3Service() {
         var _this = this;
         this.ready = false;
-        this.accountsObservable = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Rx__["a" /* Subject */]();
+        this.accountsObservable = new __WEBPACK_IMPORTED_MODULE_1_rxjs_Rx__["a" /* Subject */]();
         window.addEventListener('load', function (event) {
             _this.bootstrapWeb3();
         });
@@ -3093,58 +3090,22 @@ var Web3Service = /** @class */ (function () {
         // Checking if Web3 has been injected by the browser (Mist/MetaMask)
         if (typeof window.web3 !== 'undefined') {
             // Use Mist/MetaMask's provider
-            this.web3 = new __WEBPACK_IMPORTED_MODULE_3_web3___default.a(window.web3.currentProvider);
         }
         else {
             console.log('No web3? You should consider trying MetaMask!');
             // Hack to provide backwards compatibility for Truffle, which uses web3js 0.20.x
-            __WEBPACK_IMPORTED_MODULE_3_web3___default.a.providers.HttpProvider.prototype.sendAsync = __WEBPACK_IMPORTED_MODULE_3_web3___default.a.providers.HttpProvider.prototype.send;
             // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
-            this.web3 = new __WEBPACK_IMPORTED_MODULE_3_web3___default.a(new __WEBPACK_IMPORTED_MODULE_3_web3___default.a.providers.HttpProvider('http://localhost:8545'));
         }
         setInterval(function () { return _this.refreshAccounts(); }, 100);
     };
     Web3Service.prototype.artifactsToContract = function (artifacts) {
         return __awaiter(this, void 0, void 0, function () {
-            var delay, contractAbstraction;
             return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        if (!!this.web3) return [3 /*break*/, 3];
-                        delay = new Promise(function (resolve) { return setTimeout(resolve, 100); });
-                        return [4 /*yield*/, delay];
-                    case 1:
-                        _a.sent();
-                        return [4 /*yield*/, this.artifactsToContract(artifacts)];
-                    case 2: return [2 /*return*/, _a.sent()];
-                    case 3:
-                        contractAbstraction = __WEBPACK_IMPORTED_MODULE_1_truffle_contract__(artifacts);
-                        contractAbstraction.setProvider(this.web3.currentProvider);
-                        return [2 /*return*/, contractAbstraction];
-                }
+                return [2 /*return*/];
             });
         });
     };
     Web3Service.prototype.refreshAccounts = function () {
-        var _this = this;
-        this.web3.eth.getAccounts(function (err, accs) {
-            console.log('Refreshing accounts');
-            if (err != null) {
-                console.warn('There was an error fetching your accounts.');
-                return;
-            }
-            // Get the initial account balance so it can be displayed.
-            if (accs.length === 0) {
-                console.warn('Couldn\'t get any accounts! Make sure your Ethereum client is configured correctly.');
-                return;
-            }
-            if (!_this.accounts || _this.accounts.length !== accs.length || _this.accounts[0] !== accs[0]) {
-                console.log('Observed new accounts');
-                _this.accountsObservable.next(accs);
-                _this.accounts = accs;
-            }
-            _this.ready = true;
-        });
     };
     Web3Service = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
@@ -3169,12 +3130,12 @@ var Web3Service = /** @class */ (function () {
 var environment = {
     production: false,
     firebaseConfig: {
-        apiKey: "AIzaSyB2qSPiAXRb-mPW6uDQ21O2VcKVtMPoiCQ",
-        authDomain: "capex-81906.firebaseapp.com",
-        databaseURL: "https://capex-81906.firebaseio.com",
-        projectId: "capex-81906",
-        storageBucket: "",
-        messagingSenderId: "41938723753"
+        apiKey: 'AIzaSyB2qSPiAXRb-mPW6uDQ21O2VcKVtMPoiCQ',
+        authDomain: 'capex-81906.firebaseapp.com',
+        databaseURL: 'https://capex-81906.firebaseio.com',
+        projectId: 'capex-81906',
+        storageBucket: '',
+        messagingSenderId: '41938723753'
     }
 };
 
@@ -3207,34 +3168,6 @@ Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* pl
 
 module.exports = __webpack_require__("./src/main.ts");
 
-
-/***/ }),
-
-/***/ 1:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 2:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 3:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 4:
-/***/ (function(module, exports) {
-
-/* (ignored) */
 
 /***/ })
 

@@ -1,62 +1,24 @@
 <div class="main-content">
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="card card-stats">
-                    <div class="card-header" data-background-color="orange">
-                        <i class="material-icons">AO</i>
-                    </div>
-                    <div class="card-content">
-                        <p class="category">Statut</p>
-                        <h3 class="title">49
-                            <small>unité</small>
-                        </h3>
-                    </div>
-                    <div class="card-footer">
-                        <div class="stats">
-                            <i class="material-icons text-danger">warning</i>
-                            <a href="#pablo">49/100 sont cloturer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="card card-stats">
-                    <div class="card-header" data-background-color="red">
-                        <i class="material-icons">RFI</i>
-                    </div>
-                    <div class="card-content">
-                        <p class="category">Statut</p>
-                        <h3 class="title">75
-                            <small>unité</small>
-                        </h3>
-                    </div>
-                    <div class="card-footer">
-                        <div class="stats">
-                            <i class="material-icons text-danger">warning</i>
-                            <a href="#pablo">75/100 sont cloturer</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row"> 
 
 
-            <jqxChart style="float: left"
+            <jqxChart *ngIf="dataLoaded" style="float: left"
     [width]="400" [height]="250"
     [title]="''"
     [description]="charts[0].title"
     [showLegend]="true" [enableAnimations]="false" [padding]="padding"
-    [titlePadding]="titlePadding" [source]="charts[0].dataSource" [showBorderLine]="true" 
+    [titlePadding]="titlePadding" [source]="dataAO" [showBorderLine]="true"
     [seriesGroups]="seriesGroups" [colorScheme]="'scheme03'">
 </jqxChart>
 
-<jqxChart style="float: left"
+<jqxChart *ngIf="dataLoaded" style="float: left"
     [width]="400" [height]="250"
     [title]="''"
     [description]="charts[1].title"
     [showLegend]="true" [enableAnimations]="false" [padding]="padding"
-    [titlePadding]="titlePadding" [source]="charts[1].dataSource" [showBorderLine]="true"
+    [titlePadding]="titlePadding" [source]="dataRFI" [showBorderLine]="true"
     [seriesGroups]="seriesGroups" [colorScheme]="'scheme03'">
 </jqxChart>
 
@@ -66,7 +28,7 @@
                         <div class="card-header" data-background-color="purple">
                             <div class="nav-tabs-navigation">
                                 <div class="nav-tabs-wrapper">
-                                    <span class="nav-tabs-title">Tasks:</span>
+                                    <span class="nav-tabs-title">Tâches:</span>
                                     <ul class="nav nav-tabs" data-tabs="tabs">
                                         <li class="active">
                                             <a href="#profile" data-toggle="tab">
@@ -84,8 +46,8 @@
                                         </li>
                                         <li class="">
                                             <a href="#settings" data-toggle="tab">
-                                                <i class="material-icons">cloud</i>
-                                                Note
+                                                <i class="material-icons"></i>
+                                                
                                                 <div class="ripple-container"></div>
                                             </a>
                                         </li>
@@ -107,7 +69,7 @@
                                                         </label>
                                                     </div>
                                                 </td>
-                                                <td>Avertir fournisseur 1?"</td>
+                                                <td>Montant invalide</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
                                                         <i class="material-icons">edit</i>
@@ -125,7 +87,7 @@
                                                         </label>
                                                     </div>
                                                 </td>
-                                                <td>Notifier Fournisseur 2 sur l'equipement2?</td>
+                                                <td>marché clôturer</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
                                                         <i class="material-icons">edit</i>
@@ -143,8 +105,9 @@
                                                         </label>
                                                     </div>
                                                 </td>
-                                                <td>
-                                                </td>
+                                                <td>détail manquant</td>
+                                              
+                                                
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
                                                         <i class="material-icons">edit</i>
@@ -162,7 +125,7 @@
                                                         </label>
                                                     </div>
                                                 </td>
-                                                <td></td>
+                                                <td>avenant requis</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
                                                         <i class="material-icons">edit</i>
@@ -187,6 +150,7 @@
                                                     </div>
                                                 </td>
                                                 <td>
+                                                    Notifier
                                                 </td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
@@ -205,7 +169,7 @@
                                                         </label>
                                                     </div>
                                                 </td>
-                                                <td></td>
+                                                <td>planifier une réunion</td>
                                                 <td class="td-actions text-right">
                                                     <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
                                                         <i class="material-icons">edit</i>
@@ -218,67 +182,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="tab-pane" id="settings">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes">
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td></td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes" checked>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                </td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes">
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td></td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
