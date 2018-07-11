@@ -1,227 +1,259 @@
 <div class="main-content">
 
     <div class="container-fluid">
-        <div class="row"> 
+        <div class="row">
 
-
-            <jqxChart *ngIf="dataLoaded" style="float: left"
-    [width]="400" [height]="250"
-    [title]="''"
-    [description]="charts[0].title"
-    [showLegend]="true" [enableAnimations]="false" [padding]="padding"
-    [titlePadding]="titlePadding" [source]="dataAO" [showBorderLine]="true"
-    [seriesGroups]="seriesGroups" [colorScheme]="'scheme03'">
-</jqxChart>
-
-<jqxChart *ngIf="dataLoaded" style="float: left"
-    [width]="400" [height]="250"
-    [title]="''"
-    [description]="charts[1].title"
-    [showLegend]="true" [enableAnimations]="false" [padding]="padding"
-    [titlePadding]="titlePadding" [source]="dataRFI" [showBorderLine]="true"
-    [seriesGroups]="seriesGroups" [colorScheme]="'scheme03'">
-</jqxChart>
-
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="card card-nav-tabs">
-                        <div class="card-header" data-background-color="purple">
-                            <div class="nav-tabs-navigation">
-                                <div class="nav-tabs-wrapper">
-                                    <span class="nav-tabs-title">Tâches:</span>
-                                    <ul class="nav nav-tabs" data-tabs="tabs">
-                                        <li class="active">
-                                            <a href="#profile" data-toggle="tab">
-                                                <i class="material-icons">bug_report</i>
-                                                Bugs
-                                                <div class="ripple-container"></div>
-                                            </a>
-                                        </li>
-                                        <li class="">
-                                            <a href="#messages" data-toggle="tab">
-                                                <i class="material-icons">code</i>
-                                                Ajustement
-                                                <div class="ripple-container"></div>
-                                            </a>
-                                        </li>
-                                        <li class="">
-                                            <a href="#settings" data-toggle="tab">
-                                                <i class="material-icons"></i>
-                                                
-                                                <div class="ripple-container"></div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-content">
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="profile">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes" checked>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>Montant invalide</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes">
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>marché clôturer</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes">
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>détail manquant</td>
-                                              
-                                                
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes" checked>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>avenant requis</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tab-pane" id="messages">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes" checked>
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    Notifier
-                                                </td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="checkbox">
-                                                        <label>
-                                                            <input type="checkbox" name="optionsCheckboxes">
-                                                        </label>
-                                                    </div>
-                                                </td>
-                                                <td>planifier une réunion</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-                                                        <i class="material-icons">edit</i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="material-icons">close</i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                
-                            </div>
+            <div class="col-lg-4 col-md-8 col-sm-8">
+                <div class="card card-stats">
+                    <div class="card-header" data-background-color="orange">
+                        <i class="material-icons">AO</i>
+                    </div>
+                    <div class="card-content">
+                        <p class="category">Statut</p>
+                        <h3 class="title">49
+                            <small>unité</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons text-danger">warning</i>
+                            <a href="#pablo">49/100 sont cloturer</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6 col-md-12">
-                    <div class="card">
-                        <div class="card-header" data-background-color="orange">
-                            <h4 class="title">Situation</h4>
-                            <p class="category"></p>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-8">
+                <div class="card card-stats">
+                    <div class="card-header" data-background-color="red">
+                        <i class="material-icons">RFI</i>
+                    </div>
+                    <div class="card-content">
+                        <p class="category">Statut</p>
+                        <h3 class="title">75
+                            <small>unité</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons text-danger">warning</i>
+                            <a href="#pablo">75/100 sont cloturer</a>
                         </div>
-                        <div class="card-content table-responsive">
-                            <table class="table table-hover">
-                                <thead class="text-warning">
-                                    <tr>
-                                        <th>numDa</th>
-                                        <th>numRfi</th>
-                                        <th>situationRfi</th>
-                                        <th>numAo</th>
-                                        <th>situationAo</th>
-                                        <th>montantDeLaCad</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr *ngFor="let employee of employeeList">
-                                        <td>{{employee.numDa}}</td>
-                                        <td>{{employee.numRfi}}</td>
-                                        <td>{{employee.situationRfi}}</td>
-                                        <td>{{employee.numAo}}</td>
-                                        <td>{{employee.situationAo}}</td>
-                                        <td>{{employee.montantDeLaCad}}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+
+                <jqxChart *ngIf="dataLoaded" style="float: left" [width]="800" [height]="350" [title]="''" [description]="charts[0].title"
+                    [showLegend]="true" [enableAnimations]="true" [padding]="padding" [titlePadding]="titlePadding" [source]="dataAO"
+                    [showBorderLine]="true" [seriesGroups]="seriesGroups" [colorScheme]="'scheme03'">
+                </jqxChart>
+            </div>
+                <div class="col-lg-6 col-md-8 col-sm-10">
+                    <jqxChart *ngIf="dataLoaded" style="float: left" [width]="800" [height]="350" [title]="''" [description]="charts[1].title"
+                        [showLegend]="true" [enableAnimations]="true" [padding]="padding" [titlePadding]="titlePadding" [source]="dataRFI"
+                        [showBorderLine]="true" [seriesGroups]="seriesGroups" [colorScheme]="'scheme03'">
+                    </jqxChart>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card card-nav-tabs">
+                            <div class="card-header" data-background-color="purple">
+                                <div class="nav-tabs-navigation">
+                                    <div class="nav-tabs-wrapper">
+                                        <span class="nav-tabs-title">Tâches:</span>
+                                        <ul class="nav nav-tabs" data-tabs="tabs">
+                                            <li class="active">
+                                                <a href="#profile" data-toggle="tab">
+                                                    <i class="material-icons">bug_report</i>
+                                                    Bugs
+                                                    <div class="ripple-container"></div>
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#messages" data-toggle="tab">
+                                                    <i class="material-icons">code</i>
+                                                    Ajustement
+                                                    <div class="ripple-container"></div>
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#settings" data-toggle="tab">
+                                                    <i class="material-icons"></i>
+
+                                                    <div class="ripple-container"></div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-content">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="profile">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="optionsCheckboxes" checked>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Montant invalide</td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="optionsCheckboxes">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>marché clôturer</td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="optionsCheckboxes">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>détail manquant</td>
+
+
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="optionsCheckboxes" checked>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>avenant requis</td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="tab-pane" id="messages">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="optionsCheckboxes" checked>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        Notifier
+                                                    </td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" name="optionsCheckboxes">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>planifier une réunion</td>
+                                                    <td class="td-actions text-right">
+                                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
+                                                            <i class="material-icons">edit</i>
+                                                        </button>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                                            <i class="material-icons">close</i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card">
+                            <div class="card-header" data-background-color="orange">
+                                <h4 class="title">Situation</h4>
+                                <p class="category"></p>
+                            </div>
+                            <div class="card-content table-responsive">
+                                <table class="table table-hover">
+                                    <thead class="text-warning">
+                                        <tr>
+                                            <th>numDa</th>
+                                            <th>numRfi</th>
+                                            <th>situationRfi</th>
+                                            <th>numAo</th>
+                                            <th>situationAo</th>
+                                            <th>montantDeLaCad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr *ngFor="let employee of employeeList">
+                                            <td>{{employee.numDa}}</td>
+                                            <td>{{employee.numRfi}}</td>
+                                            <td>{{employee.situationRfi}}</td>
+                                            <td>{{employee.numAo}}</td>
+                                            <td>{{employee.situationAo}}</td>
+                                            <td>{{employee.montantDeLaCad}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
- 
