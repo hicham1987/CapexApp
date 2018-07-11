@@ -225,14 +225,34 @@ export class DashboardComponent implements OnInit {
       });
 
       this.employeeList.forEach(employee => {
-            const RFIEntry = {
-              Browser: employee.situationRfi, Share: parseFloat((employee.numRfi * 100 / sumRFI).toFixed(2))
-            };
-            const AOEntry = {
-              Browser: employee.situationAo, Share: parseFloat((employee.numAo * 100 / sumAO).toFixed(2))
-            };
-            this.dataRFI.push(RFIEntry);
-            this.dataAO.push(AOEntry);
+          let containsRFI = false;
+          let containsAO = false;
+          this.dataRFI.forEach(entry => {
+              if(entry.Browser === employee.situationRfi) {
+                  containsRFI = true;
+                  entry.Share += parseFloat((employee.numRfi * 100 / sumRFI).toFixed(2));
+              }
+          });
+
+          this.dataAO.forEach(entry => {
+              if(entry.Browser === employee.situationAo) {
+                  containsAO = true;
+                  entry.Share += parseFloat((employee.numAo * 100 / sumAO).toFixed(2));
+              }
+          });
+
+          if(!containsRFI) {
+              const RFIEntry = {
+                  Browser: employee.situationRfi, Share: parseFloat((employee.numRfi * 100 / sumRFI).toFixed(2))
+              };
+              this.dataRFI.push(RFIEntry);
+          }
+          if(!containsAO) {
+              const AOEntry = {
+                  Browser: employee.situationAo, Share: parseFloat((employee.numAo * 100 / sumAO).toFixed(2))
+              };
+              this.dataAO.push(AOEntry);
+          }
       });
       this.dataLoaded = true;
   }
